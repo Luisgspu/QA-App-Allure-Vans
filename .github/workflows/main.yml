@@ -1,8 +1,7 @@
 name: Allure Report Workflow
 
 on:
-  push:
-    
+ 
   workflow_dispatch:    
 
 permissions:
