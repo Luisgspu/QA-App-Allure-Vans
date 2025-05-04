@@ -181,7 +181,7 @@ manual_test_cases = [
     
     
 
-    {"test_name": "Last Seen SRP", "market_code": "CH/de"},
+    {"test_name": "Last Seen SRP", "market_code": "CH/de", "model_code": "C236"},
   
     
   
