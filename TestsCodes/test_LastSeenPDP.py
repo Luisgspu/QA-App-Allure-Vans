@@ -70,15 +70,21 @@ class LSeenPDPTest:
             with allure.step(f"🌍 Opened PDP URL: {pdp_url}"):
                 self.driver.get(pdp_url)
                 logging.info(f"🌍 Opened PDP URL: {pdp_url}")
-                WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-                time.sleep(4)  # Wait for the page to load
+                # Wait for the page to fully load
+                WebDriverWait(self.driver, 20).until(
+                    lambda driver: driver.execute_script("return document.readyState") == "complete"
+                )
+                time.sleep(5)
 
 
             with allure.step(f"🌍 Navigated back to: {self.urls['HOME_PAGE']}"):
                 self.driver.get(self.urls['HOME_PAGE'])
                 logging.info(f"🌍 Navigated back to: {self.urls['HOME_PAGE']}")
-                WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-                time.sleep(2)  # Wait for the page to load
+               # Wait for the page to fully load
+                WebDriverWait(self.driver, 20).until(
+                    lambda driver: driver.execute_script("return document.readyState") == "complete"
+                )
+                time.sleep(3)  # Wait for the page to load
         except Exception as e:
             with allure.step("Handle exception during Last Seen PDP test"):
                 logging.error(f"❌ Error during Last Seen PDP test: {e}")
