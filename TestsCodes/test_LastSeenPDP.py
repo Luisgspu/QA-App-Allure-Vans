@@ -70,11 +70,8 @@ class LSeenPDPTest:
             with allure.step(f"🌍 Opened PDP URL: {pdp_url}"):
                 self.driver.get(pdp_url)
                 logging.info(f"🌍 Opened PDP URL: {pdp_url}")
-                # Wait for the page to fully load
-                WebDriverWait(self.driver, 20).until(
-                    lambda driver: driver.execute_script("return document.readyState") == "complete"
-                )
-                time.sleep(5)
+                WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+                time.sleep(6)  # Wait for the page to load
 
 
             with allure.step(f"🌍 Navigated back to: {self.urls['HOME_PAGE']}"):
