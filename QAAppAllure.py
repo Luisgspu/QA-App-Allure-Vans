@@ -212,7 +212,6 @@ def run_test(driver, test_name, market_code, model_code, model_name, body_type, 
 
 # Manually defined test cases
 manual_test_cases = [
-<<<<<<< HEAD
    
 
         {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "N465"},
@@ -226,19 +225,6 @@ manual_test_cases = [
         {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "X294"},
         
 
-=======
-    
-    
-    
-
-
-    
-    {"test_name": "BFV1", "market_code": "LU/de", "model_code": "C236"},
-   
-  
-
-    
->>>>>>> master
     
 ]
 
