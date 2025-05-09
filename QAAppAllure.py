@@ -214,15 +214,8 @@ def run_test(driver, test_name, market_code, model_code, model_name, body_type, 
 manual_test_cases = [
    
 
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "N465"},
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "S206"},
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "V223"},
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "S206"},
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "W214"},
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "W247-fl"},
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "W465"},
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "X254"},
-        {"test_name": "Last Seen PDP", "market_code": "PL/pl", "model_code": "X294"},
+        {"test_name": "Last Seen PDP", "market_code": "IT/it"},
+        
         
 
     
