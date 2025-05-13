@@ -47,7 +47,7 @@ class ModelCodesAPI:
                             keyword in value.get("modelSeriesUrl", "")
                             for key, value in model_data.items()
                             if isinstance(value, dict)
-                            for keyword in ["/vans/", "/amg-gt-2-door/", "/amg-gt-4-door/", "/mercedes-maybach-s-class/", "/mercedes-maybach-sl/", "/maybach-eqs/", "/maybach/"]
+                            for keyword in ["/passengercars/"]
                         )
                         # Si contiene alguna de las palabras clave excluidas, excluir el modelo
                         if not contains_excluded_keywords:

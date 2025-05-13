@@ -147,7 +147,7 @@ if __name__ == "__main__":
     # Replace with your actual access token and market code
     access_token = "YOUR_ACCESS_TOKEN"
     market_code = "CH/it"
-    model_code = "C174"  # Replace with a specific model code if needed, e.g., "X123"
+    model_code = ""  # Replace with a specific model code if needed, e.g., "X123"
 
     # Initialize VehicleAPI
     vehicle_api = VehicleAPI(access_token)
