@@ -219,7 +219,7 @@ manual_test_cases = [
 
     
     
-    {"test_name": "BFV1", "market_code": "DE/de", "model_code": "M447-fl2"},
+    {"test_name": "BFV1", "market_code": "DE/de"},
 
 
 
