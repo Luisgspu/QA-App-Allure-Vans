@@ -1,0 +1,19 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","29895","test_run[test_case2]","DE/de","Tue May 13 12:55:44 GMT 2025","failed","Tue May 13 12:56:14 GMT 2025","C907-P02 - CAB-CHASSIS-PLATFORM (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","40793","test_run[test_case1]","DE/de","Tue May 13 12:54:03 GMT 2025","passed","Tue May 13 12:54:43 GMT 2025","C910-fl - CAB-CHASSIS (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","25665","test_run[test_case5]","DE/de","Tue May 13 12:54:43 GMT 2025","passed","Tue May 13 12:55:09 GMT 2025","K907-P02-fl - CAB-CHASSIS-PLATFORM (ESPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","21477","test_run[test_case3]","DE/de","Tue May 13 12:55:23 GMT 2025","passed","Tue May 13 12:55:44 GMT 2025","T907-fl - TOURER (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","42370","test_run[test_case4]","DE/de","Tue May 13 12:54:03 GMT 2025","passed","Tue May 13 12:54:45 GMT 2025","K907-fl - CAB-CHASSIS (ESPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","0","test_run[test_case0]","","Tue May 13 12:54:03 GMT 2025","passed","Tue May 13 12:54:03 GMT 2025","","QAAppAllure","",""

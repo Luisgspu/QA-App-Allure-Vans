@@ -1,0 +1,64 @@
+{
+    "url": "https://daimleragemea.germany-2.evergage.com/api2/event/mb_germany_prod?event=eyJhY3Rpb24iOiJIb21lIFBhZ2UgLSBWYW5zIiwiaXRlbUFjdGlvbiI6bnVsbCwic291cmNlIjp7InBhZ2VUeXBlIjoiaG9tZV92YW5zIiwiY29udGVudFpvbmVzIjpbXSwidXJsIjoiaHR0cHM6Ly93d3cubWVyY2VkZXMtYmVuei5kZS92YW5zLmh0bWw%2FaW50ZXJuYWxfdGVzdD10cnVlIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiIzNDEifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjI0NzEwODM1OC4xNzQ3MTQwOTExIn0sImFub25JZCI6ImUyMjk4ZjlhOGNlMWJkMTYifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIyNjIzMTM5ODAyMzk4NDg1MyJ9",
+    "status": 200,
+    "body": {
+        "campaignResponses": [
+            {
+                "type": "ng",
+                "campaignId": "DpKW1",
+                "campaignName": "vans best-fitting-vehicle | all vans models | home | simple-teaser, campaign-module and stage",
+                "campaignType": "Web",
+                "experienceId": "IEWZj",
+                "experienceName": "Control Group",
+                "experienceSourceCode": "",
+                "state": "Published",
+                "campaignJavascriptContent": null,
+                "userGroup": "Default",
+                "templateNames": [
+                    "Always-on - best-fitting-vehicle-combined - home"
+                ],
+                "payload": {
+                    "phase3_copy": "Configure the vehicle of your dreams",
+                    "onlineShop_label": "Verfügbare Fahrzeuge anzeigen",
+                    "experience": "IEWZj",
+                    "phase3_primaryBtn": "Go to configurator",
+                    "activate_phase2": false,
+                    "overwrite_content": false,
+                    "trackingBlock": false,
+                    "activate_phase1": true,
+                    "activate_phase3": false,
+                    "phase2_copy": "Configure the vehicle of your dreams",
+                    "target_group": "control",
+                    "userGroup": "Test",
+                    "activate_cars": false,
+                    "block_stage": false,
+                    "activate_vans": true,
+                    "phase1_primaryBtn": "Go to configurator",
+                    "phase1_copy": "Configure the vehicle of your dreams",
+                    "phase3_secondaryBtn": "Learn more",
+                    "highest_affinity": {
+                        "car": null,
+                        "van": "T907-FL"
+                    },
+                    "phase2_secondaryBtn": "Learn more",
+                    "phase1_secondaryBtn": "Learn more",
+                    "campaign": "DpKW1",
+                    "phase2_primaryBtn": "Go to configurator",
+                    "vehicles_overwrite": null,
+                    "segments": {
+                        "van": {
+                            "config_started": false,
+                            "config_completed": false,
+                            "testdrive_started": false
+                        },
+                        "car": {
+                            "config_started": false,
+                            "config_completed": false,
+                            "testdrive_started": false
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
