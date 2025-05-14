@@ -2,13 +2,14 @@ import pytest
 import allure
 import requests
 import logging
-from App.modelcodesAPI import ModelCodesAPI  # Importing from the separate module
+from modelcodesAPI import ModelCodesAPI  # Importing from the separate module
+from modelcodesAPIvans import ModelCodesAPIVans  # Importing from the separate module
 
 class VehicleAPI:
     def __init__(self, access_token):
         """Initializes the VehicleAPI class with an access token for making API requests."""
         self.access_token = access_token
-        self.model_codes_api = ModelCodesAPI(access_token)  # Initialize ModelCodesAPI
+        self.model_codes_api = ModelCodesAPIVans(access_token)  # Initialize ModelCodesAPI
 
     @allure.step("Fetch URLs from API for market code '{market_code}' and model code '{model_code}'")
     def fetch_urls_from_api(self, market_code, model_code=None):
