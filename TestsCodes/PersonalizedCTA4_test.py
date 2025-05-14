@@ -3,7 +3,7 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from App.ConfigCompleted import ConfiguratorCompleted
+from App.ConfigCompletedVans import ConfiguratorCompleted
 
 class PersonalizedCTA4Test:
     def __init__(self, driver, urls, test_link=None):

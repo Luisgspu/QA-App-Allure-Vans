@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import allure
 import uuid
-from App.ConfigCompleted import ConfiguratorCompleted  # Import the ConfiguratorCompleted class 
+from App.ConfigCompletedVans import ConfiguratorCompleted  # Import the ConfiguratorCompleted class 
 
 # Generar un UUID consistente para el test usando el nombre del test
 def generate_test_uuid(test_name):

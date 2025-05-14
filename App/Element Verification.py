@@ -7,7 +7,7 @@ import unittest
 import logging
 import time
 import os
-from ConfigCompleted import ConfiguratorCompleted
+from App.ConfigCompletedVans import ConfiguratorCompleted
 from CTAHandlerDOM import CTAHandler
 
 class VerifyElements(unittest.TestCase):
