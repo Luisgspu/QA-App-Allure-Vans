@@ -3,6 +3,7 @@
     "..",
     "BFV1",
     "last-configuration-completed",
+    "last-seen-srp",
     "master"
   ]
 }
