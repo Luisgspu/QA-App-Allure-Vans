@@ -219,15 +219,8 @@ manual_test_cases = [
 
     
     
-{"test_name": "Last Seen SRP", "market_code": "DE/de", "model_code": "P907-fl"},
+{"test_name": "Last Seen SRP", "market_code": "DE/de"},
 
-
-
-    
-
-
-    
-   
   
 
     
