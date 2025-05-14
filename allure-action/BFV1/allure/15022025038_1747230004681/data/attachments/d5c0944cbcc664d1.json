@@ -1,0 +1,10 @@
+{
+  "MODEL_CODE": "F420?usecaselivetest=true",
+  "PRODUCT_PAGE": "https://www.mercedes-benz.de/vans/models/ecitan/tourer/overview.html?usecaselivetest=true",
+  "CONFIGURATOR": "https://www.mercedes-benz.de/vans/buy/van-online-configurator.html#/de_de?models=CITAN&bodyTypes=COMBI&fuelTypes=E?usecaselivetest=true",
+  "ONLINE_SHOP": "https://www.mercedes-benz.de/passengercars/buy/new-car/search-results.html/vehicleCategory-new-commercial-vans/brand-Mercedes-Benz/modelIdentifier-CITAN/?emhsortType=price-asc&emhbodyType=TOURER&emhfuelType=ELECTRIC?usecaselivetest=true",
+  "TEST_DRIVE": "https://www.mercedes-benz.de/vans/online-testdrive.html#/dealer?context=OWVANS&modelSeries=F420&modelType=ALL?usecaselivetest=true",
+  "HOME_PAGE": "https://www.mercedes-benz.de/vans?usecaselivetest=true",
+  "BODY_TYPE": "ECITAN?usecaselivetest=true",
+  "MODEL_NAME": "TOURER?usecaselivetest=true"
+}

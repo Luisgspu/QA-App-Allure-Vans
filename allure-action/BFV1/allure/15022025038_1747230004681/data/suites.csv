@@ -1,0 +1,76 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","41065","test_run[test_case13]","DE/de","Wed May 14 13:36:15 GMT 2025","failed","Wed May 14 13:36:56 GMT 2025","C907-P02 - CAB-CHASSIS-PLATFORM (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","30125","test_run[test_case20]","DE/de","Wed May 14 13:38:48 GMT 2025","passed","Wed May 14 13:39:19 GMT 2025","M447-fl2 - MIXTO (VITO)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","49507","test_run[test_case2]","DE/de","Wed May 14 13:30:34 GMT 2025","passed","Wed May 14 13:31:23 GMT 2025","F447-fl2 - TOURER (EVITO)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","38879","test_run[test_case10]","DE/de","Wed May 14 13:32:24 GMT 2025","passed","Wed May 14 13:33:03 GMT 2025","C910-fl - CAB-CHASSIS (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","35531","test_run[test_case12]","DE/de","Wed May 14 13:33:34 GMT 2025","passed","Wed May 14 13:34:09 GMT 2025","T447-fl2 - TOURER (VITO)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","23829","test_run[test_case24]","DE/de","Wed May 14 13:39:31 GMT 2025","passed","Wed May 14 13:39:55 GMT 2025","I420 - PANEL-VAN (ECITAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","30036","test_run[test_case23]","DE/de","Wed May 14 13:38:59 GMT 2025","passed","Wed May 14 13:39:29 GMT 2025","K907-P02-fl - CAB-CHASSIS-PLATFORM (ESPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","47150","test_run[test_case6]","DE/de","Wed May 14 13:30:34 GMT 2025","passed","Wed May 14 13:31:21 GMT 2025","F420 - TOURER (ECITAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","31124","test_run[test_case11]","DE/de","Wed May 14 13:33:03 GMT 2025","passed","Wed May 14 13:33:34 GMT 2025","I447-fl2 - PANEL-VAN (EVITO)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","36816","test_run[test_case5]","DE/de","Wed May 14 13:37:10 GMT 2025","failed","Wed May 14 13:37:46 GMT 2025","H447-fl2 - MARCO-POLO-HORIZON (VAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","40608","test_run[test_case9]","DE/de","Wed May 14 13:37:40 GMT 2025","failed","Wed May 14 13:38:21 GMT 2025","V447-fl2 - V-CLASS (VAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","30242","test_run[test_case15]","DE/de","Wed May 14 13:38:18 GMT 2025","passed","Wed May 14 13:38:48 GMT 2025","P907-fl - PANEL-VAN (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","31935","test_run[test_case18]","DE/de","Wed May 14 13:37:57 GMT 2025","passed","Wed May 14 13:38:28 GMT 2025","K907-fl - CAB-CHASSIS (ESPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","46387","test_run[test_case1]","DE/de","Wed May 14 13:33:29 GMT 2025","failed","Wed May 14 13:34:15 GMT 2025","R447-fl2 - MARCO-POLO (VAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","28350","test_run[test_case22]","DE/de","Wed May 14 13:38:53 GMT 2025","passed","Wed May 14 13:39:22 GMT 2025","D907-fl - CAB-CHASSIS (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","29610","test_run[test_case16]","DE/de","Wed May 14 13:38:07 GMT 2025","passed","Wed May 14 13:38:36 GMT 2025","T907-fl - TOURER (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","30127","test_run[test_case21]","DE/de","Wed May 14 13:38:28 GMT 2025","passed","Wed May 14 13:38:59 GMT 2025","C907-fl - CAB-CHASSIS (SPRINTER)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","1","test_run[test_case0]","","Wed May 14 13:30:34 GMT 2025","passed","Wed May 14 13:30:34 GMT 2025","","QAAppAllure","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","26600","test_run[test_case4]","DE/de","Wed May 14 13:33:48 GMT 2025","failed","Wed May 14 13:34:14 GMT 2025","E420 - EQT (VAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","32211","test_run[test_case17]","DE/de","Wed May 14 13:38:21 GMT 2025","passed","Wed May 14 13:38:53 GMT 2025","T420 - TOURER (CITAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","32397","test_run[test_case3]","DE/de","Wed May 14 13:31:51 GMT 2025","passed","Wed May 14 13:32:24 GMT 2025","P447-fl2 - PANEL-VAN (VITO)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","38412","test_run[test_case8]","DE/de","Wed May 14 13:36:58 GMT 2025","failed","Wed May 14 13:37:37 GMT 2025","V420 - T-CLASS (VAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","41444","test_run[test_case7]","DE/de","Wed May 14 13:34:16 GMT 2025","failed","Wed May 14 13:34:57 GMT 2025","E447-fl2 - EQV (VAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","26055","test_run[test_case19]","DE/de","Wed May 14 13:39:05 GMT 2025","passed","Wed May 14 13:39:31 GMT 2025","P420 - PANEL-VAN (CITAN)","BFV1","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","27811","test_run[test_case14]","DE/de","Wed May 14 13:37:29 GMT 2025","passed","Wed May 14 13:37:57 GMT 2025","I907-fl - PANEL-VAN (ESPRINTER)","BFV1","",""
