@@ -61,7 +61,7 @@ class LSeenSRPTest:
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "img.wbx-vehicle-tile__image-img"))
         )
             logging.info(f"🌍 Navigated to: {self.urls['ONLINE_SHOP']}")
-            time.sleep(4)
+            time.sleep(1)
                         
             # Navigate back to HOME_PAGE
             with allure.step(f"🌍 Navigated back to: {self.urls['HOME_PAGE']}"):
@@ -72,11 +72,7 @@ class LSeenSRPTest:
         except Exception as e:
             logging.error(f"❌ Error during Last Seen SRP: {e}")
                         
-        
-        # Navigate back to the home page
-        self.driver.get(self.urls['HOME_PAGE'])
-        logging.info(f"🌍 Navigated back to: {self.urls['HOME_PAGE']}")
-        WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+    
 
     @allure.step("Navigate to Salesforce URL")
     @allure.id(generate_test_uuid("navigate_to_salesforce"))  # UUID consistent for this step
