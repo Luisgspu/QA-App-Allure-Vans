@@ -214,30 +214,11 @@ def run_test(driver, test_name, market_code, model_code, model_name, body_type, 
 manual_test_cases = [
     
 
-    {"test_name": "Last Configuration Completed", "market_code": "AT/de"},
-    {"test_name": "Last Configuration Completed", "market_code": "BE/nl"},
-    {"test_name": "Last Configuration Completed", "market_code": "BE/fr"},
-    {"test_name": "Last Configuration Completed", "market_code": "CH/de"},
-    {"test_name": "Last Configuration Completed", "market_code": "CH/fr"},
-    {"test_name": "Last Configuration Completed", "market_code": "CH/it"},
-    {"test_name": "Last Configuration Completed", "market_code": "GB/en"},
-    {"test_name": "Last Configuration Completed", "market_code": "CZ/cs"},
-    {"test_name": "Last Configuration Completed", "market_code": "DE/de"},
-    {"test_name": "Last Configuration Completed", "market_code": "DK/da"},
-    {"test_name": "Last Configuration Completed", "market_code": "ES/es"},
-    {"test_name": "Last Configuration Completed", "market_code": "FR/fr"},
-    {"test_name": "Last Configuration Completed", "market_code": "HU/hu"},
-    {"test_name": "Last Configuration Completed", "market_code": "IT/it"},
-    {"test_name": "Last Configuration Completed", "market_code": "LU/de"},
-    {"test_name": "Last Configuration Completed", "market_code": "LU/fr"},
-    {"test_name": "Last Configuration Completed", "market_code": "NL/nl"},
-    {"test_name": "Last Configuration Completed", "market_code": "PL/pl"},
-    {"test_name": "Last Configuration Completed", "market_code": "PT/pt"},
-    {"test_name": "Last Configuration Completed", "market_code": "RO/ro"},
-    {"test_name": "Last Configuration Completed", "market_code": "SE/sv"},
-    {"test_name": "Last Configuration Completed", "market_code": "SK/sk"}
+    
+    {"test_name": "Last Configuration Completed", "market_code": "AT/de", "model_code": "I447-fl2"}
 
 
+   
     
 ]
 
