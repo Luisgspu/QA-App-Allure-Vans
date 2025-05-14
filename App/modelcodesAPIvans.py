@@ -1,7 +1,7 @@
 import requests
 import logging
 
-class ModelCodesAPI:
+class ModelCodesAPIVans:
     def __init__(self, access_token):
         """
         Initializes the ModelCodesAPI class with an access token for making API requests.
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     market_code = "IT/it"
 
     # Crear una instancia de la clase
-    api = ModelCodesAPI(access_token)
+    api = ModelCodesAPIVans(access_token)
 
     # Llamar al método para obtener los códigos de modelos
     vans_car_model_codes = api.fetch_model_codes(market_code)
