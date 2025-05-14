@@ -214,7 +214,7 @@ def run_test(driver, test_name, market_code, model_code, model_name, body_type, 
 manual_test_cases = [
    
 
-{"test_name": "Last Seen PDP", "market_code": "AT/de", "model_code": "P907-fl"},
+{"test_name": "Last Seen PDP", "market_code": "DE/de"},
         
         
 
@@ -238,7 +238,7 @@ for manual_case in manual_test_cases:
             if "urls" in case:
                 for key, url in case["urls"].items():
                     if url:  # Ensure the URL is not None
-                        case["urls"][key] = f"{url}?internal_test=true"
+                        case["urls"][key] = f"{url}?usecaselivetest=true"
 
         if model_code:
             # Update the manual case with the fetched URLs for the specific model
