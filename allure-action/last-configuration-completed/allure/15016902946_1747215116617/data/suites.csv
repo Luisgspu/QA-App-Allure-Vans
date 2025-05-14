@@ -1,0 +1,76 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","32657","test_run[test_case10]","AT/de","Wed May 14 09:26:02 GMT 2025","passed","Wed May 14 09:26:35 GMT 2025","C910-fl - CAB-CHASSIS (SPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","33202","test_run[test_case16]","AT/de","Wed May 14 09:28:26 GMT 2025","passed","Wed May 14 09:28:59 GMT 2025","T907-fl - TOURER (SPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","43711","test_run[test_case9]","AT/de","Wed May 14 09:29:01 GMT 2025","failed","Wed May 14 09:29:44 GMT 2025","V447-fl2 - V-CLASS (VAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","42285","test_run[test_case7]","AT/de","Wed May 14 09:25:37 GMT 2025","failed","Wed May 14 09:26:20 GMT 2025","E447-fl2 - EQV (VAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","43514","test_run[test_case8]","AT/de","Wed May 14 09:28:15 GMT 2025","failed","Wed May 14 09:28:58 GMT 2025","V420 - T-CLASS (VAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","30904","test_run[test_case23]","AT/de","Wed May 14 09:31:18 GMT 2025","passed","Wed May 14 09:31:49 GMT 2025","K907-P02-fl - 9071-XZ1-P02-M1E (ESPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","34273","test_run[test_case20]","AT/de","Wed May 14 09:30:01 GMT 2025","passed","Wed May 14 09:30:35 GMT 2025","M447-fl2 - MIXTO (VITO)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","32177","test_run[test_case22]","AT/de","Wed May 14 09:30:36 GMT 2025","passed","Wed May 14 09:31:08 GMT 2025","D907-fl - CAB-CHASSIS (SPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","33289","test_run[test_case13]","AT/de","Wed May 14 09:27:42 GMT 2025","passed","Wed May 14 09:28:15 GMT 2025","C907-P02 - CAB-CHASSIS-PLATFORM (SPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","34168","test_run[test_case2]","AT/de","Wed May 14 09:23:40 GMT 2025","passed","Wed May 14 09:24:15 GMT 2025","F447-fl2 - TOURER (EVITO)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","29429","test_run[test_case5]","AT/de","Wed May 14 09:25:33 GMT 2025","failed","Wed May 14 09:26:02 GMT 2025","H447-fl2 - MARCO-POLO-HORIZON (VAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","33910","test_run[test_case11]","AT/de","Wed May 14 09:27:52 GMT 2025","passed","Wed May 14 09:28:26 GMT 2025","I447-fl2 - PANEL-VAN (EVITO)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","32235","test_run[test_case18]","AT/de","Wed May 14 09:29:28 GMT 2025","passed","Wed May 14 09:30:01 GMT 2025","K907-fl - CAB-CHASSIS (ESPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","32057","test_run[test_case21]","AT/de","Wed May 14 09:30:21 GMT 2025","passed","Wed May 14 09:30:53 GMT 2025","C907-fl - CAB-CHASSIS (SPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","30849","test_run[test_case24]","AT/de","Wed May 14 09:31:21 GMT 2025","passed","Wed May 14 09:31:52 GMT 2025","I420 - 4206-XZ0-I0E-24-1 (ECITAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","34441","test_run[test_case19]","AT/de","Wed May 14 09:30:02 GMT 2025","passed","Wed May 14 09:30:36 GMT 2025","P420 - PANEL-VAN (CITAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","32031","test_run[test_case15]","AT/de","Wed May 14 09:28:46 GMT 2025","passed","Wed May 14 09:29:18 GMT 2025","P907-fl - PANEL-VAN (SPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","32585","test_run[test_case14]","AT/de","Wed May 14 09:30:16 GMT 2025","passed","Wed May 14 09:30:49 GMT 2025","I907-fl - 9076-XZ1-M1E-24-2 (ESPRINTER)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","42542","test_run[test_case1]","AT/de","Wed May 14 09:24:53 GMT 2025","failed","Wed May 14 09:25:36 GMT 2025","R447-fl2 - MARCO-POLO (VAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","28738","test_run[test_case3]","AT/de","Wed May 14 09:26:52 GMT 2025","failed","Wed May 14 09:27:21 GMT 2025","E420 - EQT (VAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","44354","test_run[test_case6]","AT/de","Wed May 14 09:22:00 GMT 2025","passed","Wed May 14 09:22:44 GMT 2025","F420 - 4207-XZ0-I0E-24-1 (ECITAN)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","0","test_run[test_case0]","","Wed May 14 09:22:00 GMT 2025","passed","Wed May 14 09:22:00 GMT 2025","","QAAppAllure","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","33687","test_run[test_case12]","AT/de","Wed May 14 09:28:58 GMT 2025","passed","Wed May 14 09:29:32 GMT 2025","T447-fl2 - TOURER (VITO)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","35081","test_run[test_case4]","AT/de","Wed May 14 09:22:17 GMT 2025","passed","Wed May 14 09:22:52 GMT 2025","P447-fl2 - PANEL-VAN (VITO)","Last Configuration Completed","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","33554","test_run[test_case17]","AT/de","Wed May 14 09:29:18 GMT 2025","passed","Wed May 14 09:29:51 GMT 2025","T420 - 4207-XZ0-24-1 (CITAN)","Last Configuration Completed","",""
