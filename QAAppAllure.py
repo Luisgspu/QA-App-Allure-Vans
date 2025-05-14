@@ -214,7 +214,7 @@ def run_test(driver, test_name, market_code, model_code, model_name, body_type, 
 manual_test_cases = [
    
 
-{"test_name": "Last Seen SRP", "market_code": "DE/de", "model_code": "P907-fl"},
+{"test_name": "Last Seen PDP", "market_code": "AT/de", "model_code": "P907-fl"},
         
         
 
