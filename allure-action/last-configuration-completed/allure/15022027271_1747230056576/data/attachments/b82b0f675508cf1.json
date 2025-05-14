@@ -1,0 +1,35 @@
+{
+    "url": "https://daimleragemea.germany-2.evergage.com/api2/event/mb_austria_prod?event=eyJhY3Rpb24iOiJIb21lIFBhZ2UgLSBWYW5zIiwiaXRlbUFjdGlvbiI6bnVsbCwic291cmNlIjp7InBhZ2VUeXBlIjoiaG9tZV92YW5zIiwibG9jYWxlIjoiZGVfQVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56LmF0L3ZhbnMuaHRtbD91c2VjYXNlbGl2ZXRlc3Q9dHJ1ZSIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNzIifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE5NTcyMDMzMzMuMTc0NzIyOTYxNSJ9LCJhbm9uSWQiOiI0MTFhMDQwNDNkNTBkMTAwIn0sInBlcmZvcm1hbmNlIjp7fSwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfSwiY2F0YWxvZyI6e30sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sIl90b29sc0V2ZW50TGlua0lkIjoiODgzODE1Nzc4MzQ1MjYyMSJ9",
+    "status": 200,
+    "body": {
+        "campaignResponses": [
+            {
+                "type": "ng",
+                "campaignId": "DiU00",
+                "campaignName": "last-configuration | vans commercial models | home | simple-teaser and campaign-module",
+                "campaignType": "Web",
+                "experienceId": "WoD1f",
+                "experienceName": "Experience 1",
+                "experienceSourceCode": "",
+                "state": "Published",
+                "campaignJavascriptContent": null,
+                "userGroup": "Default",
+                "templateNames": [
+                    "Always-on - last configuration vans - simple-teaser and campaign module - home"
+                ],
+                "payload": {
+                    "cm_primaryBtn": "Zurück zu Ihrer Konfiguration",
+                    "trackingBlock": false,
+                    "campaignModuleAllowed": true,
+                    "cm_copy": "Der nächste Schritt zu Ihrem Mercedes-Benz.",
+                    "campaign": "DiU00",
+                    "cm_headline": "Ihre letzte Konfiguration wartet auf Sie.",
+                    "experience": "WoD1f",
+                    "userGroup": "Test",
+                    "trackingId": "vans_",
+                    "currentProduct": null
+                }
+            }
+        ]
+    }
+}

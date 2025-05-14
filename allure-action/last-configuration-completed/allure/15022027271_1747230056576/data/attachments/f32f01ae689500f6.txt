@@ -1,0 +1,30 @@
+ERROR    root:test_LastConfigCompleted.py:72 ❌ Error in configurator: HTTPConnectionPool(host='localhost', port=39235): Read timed out. (read timeout=120)
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_austria_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gdmFuLW9ubGluZS1jb25maWd1cmF0b3IiLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE5ODY0NjY1MC4xNzQ3MjI5NDg3In0sImFub25JZCI6IjNlYzVhYjdhNDgwMDdjYzgifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnouYXQvdmFucy9idXkvdmFuLW9ubGluZS1jb25maWd1cmF0b3IuaHRtbCMvYXRfZGU%2FbW9kZWxzPU1BUkNPUE9MTyZib2R5VHlwZXM9Q0FNUEVSVkFOP3VzZWNhc2VsaXZldGVzdD10cnVlIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI3MiIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJfdG9vbHNFdmVudExpbmtJZCI6IjA4MTg5NzM4Njk2NjM0MjQxIiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x56518ebd575a <unknown>
+#1 0x56518e6884b0 <unknown>
+#2 0x56518e66ed86 <unknown>
+#3 0x56518e66d69a <unknown>
+#4 0x56518e66ddff <unknown>
+#5 0x56518e66dd54 <unknown>
+#6 0x56518e68c69f <unknown>
+#7 0x56518e73192a <unknown>
+#8 0x56518e6ff592 <unknown>
+#9 0x56518e7255e0 <unknown>
+#10 0x56518e6ff363 <unknown>
+#11 0x56518e6cbd63 <unknown>
+#12 0x56518e6cc9c1 <unknown>
+#13 0x56518eb9aa6b <unknown>
+#14 0x56518eb9e951 <unknown>
+#15 0x56518eb82b62 <unknown>
+#16 0x56518eb9f4c4 <unknown>
+#17 0x56518eb6713f <unknown>
+#18 0x56518ebc36f8 <unknown>
+#19 0x56518ebc38d6 <unknown>
+#20 0x56518ebd45a6 <unknown>
+#21 0x7f402689caa4 <unknown>
+#22 0x7f4026929c3c <unknown>
+
+ERROR    root:VerifyPersonalizationAndCapture.py:19 ❌ Error attaching screenshot to Allure: [Errno 2] No such file or directory: '/home/runner/work/QA-App-Allure-Vans/QA-App-Allure-Vans/Tests/Last Configuration Completed_attempt_2.png'
+ERROR    root:VerifyPersonalizationAndCapture.py:148 ❌ Image not found in the specified selector. Error: Message:
