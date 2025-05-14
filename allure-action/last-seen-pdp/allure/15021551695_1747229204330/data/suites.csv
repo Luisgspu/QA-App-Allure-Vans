@@ -1,0 +1,64 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","62815","test_run[test_case4]","DE/de","Wed May 14 13:14:47 GMT 2025","failed","Wed May 14 13:15:49 GMT 2025","E420 - EQT (VAN)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","58570","test_run[test_case3]","DE/de","Wed May 14 13:15:31 GMT 2025","failed","Wed May 14 13:16:29 GMT 2025","P447-fl2 - PANEL-VAN (VITO)","Last Seen PDP","",""
+"❌ Skipping test 'Last Seen PDP' due to lack of ONLINE_SHOP URL.","1937","test_run[test_case16]","DE/de","Wed May 14 13:22:15 GMT 2025","skipped","Wed May 14 13:22:17 GMT 2025","T907-fl - TOURER (SPRINTER)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","63318","test_run[test_case1]","DE/de","Wed May 14 13:14:41 GMT 2025","failed","Wed May 14 13:15:44 GMT 2025","R447-fl2 - MARCO-POLO (VAN)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","72407","test_run[test_case2]","DE/de","Wed May 14 13:10:11 GMT 2025","passed","Wed May 14 13:11:24 GMT 2025","F447-fl2 - TOURER (EVITO)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","34048","test_run[test_case22]","DE/de","Wed May 14 13:25:57 GMT 2025","passed","Wed May 14 13:26:31 GMT 2025","D907-fl - CAB-CHASSIS (SPRINTER)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","63621","test_run[test_case15]","DE/de","Wed May 14 13:21:12 GMT 2025","failed","Wed May 14 13:22:15 GMT 2025","P907-fl - PANEL-VAN (SPRINTER)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","63225","test_run[test_case8]","DE/de","Wed May 14 13:19:17 GMT 2025","failed","Wed May 14 13:20:20 GMT 2025","V420 - T-CLASS (VAN)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","52295","test_run[test_case24]","DE/de","Wed May 14 13:23:07 GMT 2025","passed","Wed May 14 13:23:59 GMT 2025","I420 - PANEL-VAN (ECITAN)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","47431","test_run[test_case9]","DE/de","Wed May 14 13:17:26 GMT 2025","passed","Wed May 14 13:18:13 GMT 2025","V447-fl2 - V-CLASS (VAN)","Last Seen PDP","",""
+"❌ Skipping test 'Last Seen PDP' due to lack of ONLINE_SHOP URL.","822","test_run[test_case10]","DE/de","Wed May 14 13:16:53 GMT 2025","skipped","Wed May 14 13:16:54 GMT 2025","C910-fl - CAB-CHASSIS (SPRINTER)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","1","test_run[test_case0]","","Wed May 14 13:10:11 GMT 2025","passed","Wed May 14 13:10:11 GMT 2025","","QAAppAllure","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","73368","test_run[test_case6]","DE/de","Wed May 14 13:10:11 GMT 2025","passed","Wed May 14 13:11:25 GMT 2025","F420 - TOURER (ECITAN)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","62529","test_run[test_case12]","DE/de","Wed May 14 13:20:04 GMT 2025","failed","Wed May 14 13:21:06 GMT 2025","T447-fl2 - TOURER (VITO)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","53358","test_run[test_case14]","DE/de","Wed May 14 13:19:04 GMT 2025","passed","Wed May 14 13:19:57 GMT 2025","I907-fl - PANEL-VAN (ESPRINTER)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","34596","test_run[test_case21]","DE/de","Wed May 14 13:26:05 GMT 2025","passed","Wed May 14 13:26:39 GMT 2025","C907-fl - CAB-CHASSIS (SPRINTER)","Last Seen PDP","",""
+"❌ Skipping test 'Last Seen PDP' due to lack of ONLINE_SHOP URL.","839","test_run[test_case13]","DE/de","Wed May 14 13:21:06 GMT 2025","skipped","Wed May 14 13:21:07 GMT 2025","C907-P02 - CAB-CHASSIS-PLATFORM (SPRINTER)","Last Seen PDP","",""
+"❌ Skipping test 'Last Seen PDP' due to lack of ONLINE_SHOP URL.","1058","test_run[test_case5]","DE/de","Wed May 14 13:15:50 GMT 2025","skipped","Wed May 14 13:15:51 GMT 2025","H447-fl2 - MARCO-POLO-HORIZON (VAN)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","49659","test_run[test_case11]","DE/de","Wed May 14 13:20:21 GMT 2025","passed","Wed May 14 13:21:10 GMT 2025","I447-fl2 - PANEL-VAN (EVITO)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","75459","test_run[test_case17]","DE/de","Wed May 14 13:23:51 GMT 2025","failed","Wed May 14 13:25:07 GMT 2025","T420 - TOURER (CITAN)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","61590","test_run[test_case7]","DE/de","Wed May 14 13:15:52 GMT 2025","failed","Wed May 14 13:16:53 GMT 2025","E447-fl2 - EQV (VAN)","Last Seen PDP","",""
+"❌ Skipping test 'Last Seen PDP' due to lack of ONLINE_SHOP URL.","503","test_run[test_case18]","DE/de","Wed May 14 13:25:07 GMT 2025","skipped","Wed May 14 13:25:07 GMT 2025","K907-fl - CAB-CHASSIS (ESPRINTER)","Last Seen PDP","",""
+"❌ Skipping test 'Last Seen PDP' due to lack of ONLINE_SHOP URL.","1192","test_run[test_case23]","DE/de","Wed May 14 13:22:17 GMT 2025","skipped","Wed May 14 13:22:18 GMT 2025","K907-P02-fl - CAB-CHASSIS-PLATFORM (ESPRINTER)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","7769","test_run[test_case20]","DE/de","Wed May 14 13:25:10 GMT 2025","failed","Wed May 14 13:25:18 GMT 2025","M447-fl2 - MIXTO (VITO)","Last Seen PDP","",""
+"
+Runs a test for each test case, either manually defined or dynamically fetched.
+","47195","test_run[test_case19]","DE/de","Wed May 14 13:25:10 GMT 2025","failed","Wed May 14 13:25:57 GMT 2025","P420 - PANEL-VAN (CITAN)","Last Seen PDP","",""

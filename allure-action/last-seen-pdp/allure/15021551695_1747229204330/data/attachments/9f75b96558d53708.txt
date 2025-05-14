@@ -1,0 +1,1 @@
+ERROR    root:QAAppAllure.py:274 ❌ Missing HOME_PAGE URL for test 'Last Seen PDP' (market: DE/de, model: None).

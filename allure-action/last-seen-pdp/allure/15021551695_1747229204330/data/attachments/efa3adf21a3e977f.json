@@ -1,0 +1,37 @@
+{
+    "url": "https://daimleragemea.germany-2.evergage.com/api2/event/mb_germany_prod?event=eyJhY3Rpb24iOiJIb21lIFBhZ2UgLSBWYW5zIiwiaXRlbUFjdGlvbiI6bnVsbCwic291cmNlIjp7InBhZ2VUeXBlIjoiaG9tZV92YW5zIiwiY29udGVudFpvbmVzIjpbXSwidXJsIjoiaHR0cHM6Ly93d3cubWVyY2VkZXMtYmVuei5kZS92YW5zLmh0bWw%2FdXNlY2FzZWxpdmV0ZXN0PXRydWUiLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjM0MSJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTIwOTg0NDkwOC4xNzQ3MjI4NDE4In0sImFub25JZCI6ImZhZGRhMzYzZjZmZDE4NDIifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIyODM0MDgwNTMwNDQwNzcxIn0%3D",
+    "status": 200,
+    "body": {
+        "campaignResponses": [
+            {
+                "type": "ng",
+                "campaignId": "CSqOi",
+                "campaignName": "dcp-last-seen-pdp-srp | commercial van models | vans home | simple-teaser and campaign-module",
+                "campaignType": "Web",
+                "experienceId": "A2jW6",
+                "experienceName": "Experience 1",
+                "experienceSourceCode": "",
+                "state": "Published",
+                "campaignJavascriptContent": null,
+                "userGroup": "Default",
+                "templateNames": [
+                    "Always on - dcp-last-seen-pdp-srp vans - simple-teaser and campaign-module"
+                ],
+                "payload": {
+                    "apikey": "b448a559-eb9e-4396-812f-25b45f84c63a",
+                    "pdp_headline": "Ihr Mercedes-Benz Transporter wartet auf Sie!",
+                    "srp_cta_label": "Zurück zu den Angeboten",
+                    "experience": "A2jW6",
+                    "trackingBlock": false,
+                    "srp_headline": "Entdecken Sie sofort verfügbare Transporter!",
+                    "pdp_subline": "In nur wenigen Schritten zu Ihrem Wunschfahrzeug.",
+                    "campaign": "CSqOi",
+                    "srp_subline": "Noch keinen passenden Mercedes-Benz gefunden?",
+                    "pdp_cta_label": "Zurück zum Angebot",
+                    "userGroup": "Test",
+                    "currentProduct": null
+                }
+            }
+        ]
+    }
+}
