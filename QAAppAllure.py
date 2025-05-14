@@ -245,13 +245,16 @@ for manual_case in manual_test_cases:
 
     # Fetch URLs for the specific model code or all models if model_code is not provided
     fetched_cases = vehicle_api.fetch_models_for_market(market_code, test_name, model_code=model_code)
+    
     if fetched_cases:
         for case in fetched_cases:
+            
             # Append the test-specific query parameter to all URLs
             if "urls" in case:
                 for key, url in case["urls"].items():
-                    if url:  # Ensure the URL is not None
-                        case["urls"][key] = f"{url}?internal_test=true"
+                    if url and key == "HOME_PAGE":  # Ensure the URL is not None and the key is HOME_PAGE
+                        case["urls"][key] = f"{url}?usecaselivetest=true"
+            
 
         if model_code:
             # Update the manual case with the fetched URLs for the specific model
