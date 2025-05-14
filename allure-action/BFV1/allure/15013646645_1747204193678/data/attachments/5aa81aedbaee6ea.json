@@ -1,0 +1,64 @@
+{
+    "url": "https://daimleragemea.germany-2.evergage.com/api2/event/mb_germany_prod?event=eyJhY3Rpb24iOiJIb21lIFBhZ2UgLSBWYW5zIiwiaXRlbUFjdGlvbiI6bnVsbCwic291cmNlIjp7InBhZ2VUeXBlIjoiaG9tZV92YW5zIiwiY29udGVudFpvbmVzIjpbXSwidXJsIjoiaHR0cHM6Ly93d3cubWVyY2VkZXMtYmVuei5kZS92YW5zLmh0bWw%2FaW50ZXJuYWxfdGVzdD10cnVlIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiIzNDEifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjY4MTQ2ODI2NS4xNzQ3MjAzOTg0In0sImFub25JZCI6IjQ1ZWI2ZGJiMzdhYWI0MWEifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIwNDE4MTYzODk4Njc1NDM0MzUifQ%3D%3D",
+    "status": 200,
+    "body": {
+        "campaignResponses": [
+            {
+                "type": "ng",
+                "campaignId": "DpKW1",
+                "campaignName": "vans best-fitting-vehicle | all vans models | home | simple-teaser, campaign-module and stage",
+                "campaignType": "Web",
+                "experienceId": "kWQdE",
+                "experienceName": "Target Group",
+                "experienceSourceCode": "",
+                "state": "Published",
+                "campaignJavascriptContent": null,
+                "userGroup": "Default",
+                "templateNames": [
+                    "Always-on - best-fitting-vehicle-combined - home"
+                ],
+                "payload": {
+                    "phase3_copy": "Jetzt verfügbare Fahrzeuge finden.",
+                    "onlineShop_label": "Verfügbare Fahrzeuge anzeigen",
+                    "experience": "kWQdE",
+                    "phase3_primaryBtn": "Verfügbare Fahrzeuge anzeigen",
+                    "activate_phase2": false,
+                    "overwrite_content": false,
+                    "trackingBlock": false,
+                    "activate_phase1": true,
+                    "activate_phase3": false,
+                    "phase2_copy": "Entdecken Sie sofort verfügbare Fahrzeuge.",
+                    "target_group": "target",
+                    "userGroup": "Test",
+                    "activate_cars": false,
+                    "block_stage": false,
+                    "activate_vans": true,
+                    "phase1_primaryBtn": "Fahrzeug konfigurieren",
+                    "phase1_copy": "Der nächste Schritt zu Ihrem Mercedes-Benz.",
+                    "phase3_secondaryBtn": "Probefahrt buchen",
+                    "highest_affinity": {
+                        "car": null,
+                        "van": "P907-FL"
+                    },
+                    "phase2_secondaryBtn": "Mehr erfahren",
+                    "phase1_secondaryBtn": "Mehr erfahren",
+                    "campaign": "DpKW1",
+                    "phase2_primaryBtn": "Verfügbare Fahrzeuge anzeigen",
+                    "vehicles_overwrite": null,
+                    "segments": {
+                        "van": {
+                            "config_started": false,
+                            "config_completed": false,
+                            "testdrive_started": false
+                        },
+                        "car": {
+                            "config_started": false,
+                            "config_completed": false,
+                            "testdrive_started": false
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
