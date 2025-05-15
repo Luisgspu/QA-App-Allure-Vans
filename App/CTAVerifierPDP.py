@@ -2,6 +2,8 @@ import logging
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import allure
+import pytest
 
 
 class CTAVerifier:
@@ -43,15 +45,24 @@ class CTAVerifier:
                         logging.info(f"✅ The href attribute includes the expected value: {expected_href_value}")
                         return True
                     else:
-                        logging.warning(f"⚠️ The href attribute does not include the expected value. Found: {primary_href}")
-                        return False
+                        with allure.step ("❌ CTA Verification Failure"):     
+                            message = f"❌ CTA Verification Failure: The href attribute does not include the expected value. Found: {primary_href}, Expected: {expected_href_value}"
+                            logging.warning(message)
+                            allure.attach(message, name="CTA Verification Failure", attachment_type=allure.attachment_type.TEXT)
+                            pytest.fail(message)
                 else:
-                    logging.warning("⚠️ Primary CTA is not visible.")
-                    return False
+                    message = "⚠️ Primary CTA is not visible."
+                    logging.warning(message)
+                    allure.attach(message, name="CTA Visibility Failure", attachment_type=allure.attachment_type.TEXT)
+                    pytest.fail(message)
             except Exception as e:
-                logging.error(f"❌ Primary CTA not found. Error: {e}")
-                return False
+                message = f"❌ Primary CTA not found. Error: {e}"
+                logging.error(message)
+                allure.attach(message, name="CTA Not Found Error", attachment_type=allure.attachment_type.TEXT)
+                pytest.fail(message)
 
         except Exception as e:
-            logging.error(f"❌ Parent element not found: {parent_selector}. Error: {e}")
-            return False
+            message = f"❌ Parent element not found: {parent_selector}. Error: {e}"
+            logging.error(message)
+            allure.attach(message, name="Parent Element Not Found Error", attachment_type=allure.attachment_type.TEXT)
+            pytest.fail(message)
