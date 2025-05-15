@@ -81,12 +81,23 @@ class VerifyElements(unittest.TestCase):
         self.driver.get(url)
         time.sleep(4)  # Optional: wait for the page to load again
 
+        # Step 5: Call CTAVerifier to verify CTAs
         cta_verifier = CTAVerifier(self.driver)  # Instantiate the CTAVerifier class
-        
+
+        # Define selectors and expected href
+        parent_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content'
+        primary_cta_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content > div > a'
+        expected_href_value = "/buy/new-car/product.html/"
+
+        # Call the verify_ctas method
+        result = cta_verifier.verify_ctas(parent_selector, primary_cta_selector, expected_href_value)
+
         # Assert the result
         self.assertTrue(result, "Primary CTA verification failed.")
-        
-        """
+
+      
+
+        """  
         # Step 2: Verify elements within the shadow DOM
         try:
             parent_element = self.driver.find_element(By.CSS_SELECTOR, 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content')
