@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import allure
 from App.ScreenshotHandler import ScreenshotHandler
 import pytest
+from App.CTAVerifierPDP import CTAVerifier
 
 # Función para adjuntar capturas de pantalla a Allure
 def attach_screenshot_to_allure(screenshot_path):
@@ -128,6 +129,37 @@ def verify_personalization_and_capture(
 
                 with allure.step(f"✅ Personalized image with expected src '{expected_src}' was applied correctly."):
                     logging.info(f"✅ Found matching image with src: {matching_src}")
+                    
+                    # Check if the current page is the last seen PDP
+                    if test_name == "Last Seen PDP":  # Adjust the condition based on your PDP URL structure
+                        with allure.step("🔍 Verifying CTAs on the PDP"):
+                            try:
+                                # Instantiate the CTAVerifierPDP class
+                                cta_verifier = CTAVerifier(driver)
+
+                                # Define selectors and expected href
+                                parent_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content'
+                                primary_cta_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content > div > a'
+                                expected_href_value = "/buy/new-car/product.html/"
+
+                                # Call the verify_ctas method
+                                result = cta_verifier.verify_ctas(parent_selector, primary_cta_selector, expected_href_value)
+
+                                # Log the result
+                                if result:
+                                    with allure.step(f"✅ CTAs on the PDP with '{expected_href_value}' were verified successfully."):
+                                        logging.info("✅ CTAs on the PDP verified successfully.")
+                                        allure.attach("CTAs verified successfully.", name="CTA Verification Result", attachment_type=allure.attachment_type.TEXT)
+                                else:
+                                    logging.warning("⚠️ CTAs on the PDP verification failed.")
+                                    allure.attach("CTA verification failed on PDP.", name="CTA Verification Failure", attachment_type=allure.attachment_type.TEXT)
+                            except Exception as e:
+                                with allure.step(f"❌ Error verifying CTAs on the PDP: {e}"):
+                                    test_success = False
+                                    message = f"❌ Test '{test_name}' failed due to CTA verification error: {e}"
+                                    pytest.fail(message)
+                                    logging.error(f"❌ Error verifying CTAs on the PDP: {e}")
+                                    allure.attach(f"Error verifying CTAs on the PDP: {e}", name="CTA Verification Error", attachment_type=allure.attachment_type.TEXT)
             except Exception as e:
                 # Capture screenshot
                 logging.info("📸 Taking screenshot...")
