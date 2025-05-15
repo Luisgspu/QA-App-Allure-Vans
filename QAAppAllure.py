@@ -216,14 +216,9 @@ manual_test_cases = [
     
     
     
-    {"test_name": "Last Seen PDP", "market_code": "DE/de"},
+    {"test_name": "Last Seen PDP", "market_code": "DE/de", "model_code": "I420"},
         
 
-
-
-
-
-    
     
 ]
 
@@ -240,12 +235,13 @@ for manual_case in manual_test_cases:
     fetched_cases = vehicle_api.fetch_models_for_market(market_code, test_name, model_code=model_code)
     if fetched_cases:
         for case in fetched_cases:
+            
             # Append the test-specific query parameter to all URLs
             if "urls" in case:
                 for key, url in case["urls"].items():
-                    if url:  # Ensure the URL is not None
-                        case["urls"][key] = f"{url}?usecaselivetest=true"
-
+                    if url and key == "HOME_PAGE":  # Ensure the URL is not None and the key is HOME_PAGE
+                        case["urls"][key] = f"{url}?usecaselivetest=true"    
+            
         if model_code:
             # Update the manual case with the fetched URLs for the specific model
             manual_case["urls"] = fetched_cases[0].get("urls", {})

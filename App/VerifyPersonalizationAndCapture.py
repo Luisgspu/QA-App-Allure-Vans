@@ -137,16 +137,12 @@ def verify_personalization_and_capture(
                         cta_verifier = CTAVerifier(driver)
 
                         # Define selectors and expected href
-                        parent_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content'
+                        parent_selector = 'div.hp-campaigns__content'
                         primary_cta_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content > div > a'
                         expected_href_value = "/buy/new-car/product.html/"
 
                         # Call the verify_ctas method
                         cta_verifier.verify_ctas(parent_selector, primary_cta_selector, expected_href_value)
-
-                        # If no exception is raised, log success
-                        with allure.step(f"✅ CTAs on the PDP with '{expected_href_value}' were verified successfully."):
-                            logging.info("✅ CTAs on the PDP verified successfully.")
                                 
             except Exception as e:
                 # Capture screenshot

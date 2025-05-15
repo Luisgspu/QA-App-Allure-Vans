@@ -42,13 +42,15 @@ class CTAVerifier:
 
                     # Verify if the href includes the expected value
                     if expected_href_value in primary_href:
-                        logging.info(f"✅ The href attribute includes the expected value: {expected_href_value}")
-                        return True
+                        with allure.step(f"✅ CTA Verified Succesfully. The href attribute includes the expected value: {expected_href_value}"):
+                            allure.attach(primary_href, name="Matching href value found", attachment_type=allure.attachment_type.TEXT)
+                            logging.info(f"✅ The href attribute includes the expected value: {expected_href_value}")
+                            return True
                     else:
-                        with allure.step ("❌ CTA Verification Failure"):     
-                            message = f"❌ CTA Verification Failure: The href attribute does not include the expected value. Found: {primary_href}, Expected: {expected_href_value}"
+                        with allure.step (f"❌ CTA Verification Failure: The href attribute does not include the expected value: {expected_href_value}"):     
+                            message = f"❌ CTA Verification Failure: The href attribute does not include the expected value in the primary PDP CTA."
                             logging.warning(message)
-                            allure.attach(message, name="CTA Verification Failure", attachment_type=allure.attachment_type.TEXT)
+                            allure.attach(primary_href, name="href value found", attachment_type=allure.attachment_type.TEXT)
                             pytest.fail(message)
                 else:
                     message = "⚠️ Primary CTA is not visible."
