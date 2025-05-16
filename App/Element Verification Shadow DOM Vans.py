@@ -56,7 +56,7 @@ class VerifyElements(unittest.TestCase):
 
     def test_verify_elements(self):
         
-        url = "https://www.mercedes-benz.de/vans"  # Replace with the actual URL
+        url = "https://www.mercedes-benz.at/vans"  # Replace with the actual URL
 
         self.driver.get(url)
         WebDriverWait(self.driver, 15).until(lambda driver: driver.execute_script("return document.readyState") == "complete")
@@ -65,7 +65,7 @@ class VerifyElements(unittest.TestCase):
         self.handle_cookies()
         time.sleep(2)  # Optional: wait for the cookies to be accepted
         
-        self.driver.get("https://www.mercedes-benz.de/passengercars/buy/new-car/search-results.html/vehicleCategory-new-commercial-vans/brand-Mercedes-Benz/modelIdentifier-SPRINTER?emhsortType=price-asc&emhbodyType=PANEL_VAN")    
+        self.driver.get("https://www.mercedes-benz.at/passengercars/buy/new-car/search-results.html/vehicleCategory-new-commercial-vans/brand-Mercedes-Benz/modelIdentifier-SPRINTER?emhsortType=price-asc&emhbodyType=PANEL_VAN")    
         element = WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "img.wbx-vehicle-tile__image-img"))
         )
@@ -85,8 +85,8 @@ class VerifyElements(unittest.TestCase):
         cta_verifier = CTAVerifier(self.driver)  # Instantiate the CTAVerifier class
 
         # Define selectors and expected href
-        parent_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content'
-        primary_cta_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content > div > a'
+        parent_selector = 'div.hp-campaigns__content'
+        primary_cta_selector = 'div.hp-campaigns__content a'
         expected_href_value = "/buy/new-car/product.html/"
 
         # Call the verify_ctas method

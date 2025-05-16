@@ -93,7 +93,7 @@ def verify_personalization_and_capture(
 
                 # Dynamically determine the selector based on the market
                 if ".co.uk" in urls['HOME_PAGE']:
-                    selector = "body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(16)"
+                    selector = "body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(11) > div"
                 else:
                     selector = "[data-component-name='hp-campaigns']"
                 
@@ -138,8 +138,13 @@ def verify_personalization_and_capture(
 
                         # Define selectors and expected href
                         parent_selector = 'div.hp-campaigns__content'
-                        primary_cta_selector = 'body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(8) > div > div > div > div > div:nth-child(1) > article > div > div.hp-campaigns__content > div > a'
-                        expected_href_value = "/buy/new-car/product.html/"
+                        primary_cta_selector = 'div.hp-campaigns__content a'
+                        
+                        # Set the expected href value based on the market
+                        if ".co.uk" in urls['HOME_PAGE']:
+                            expected_href_value = "/buy/new-vans/product.html/"
+                        else:
+                            expected_href_value = "/buy/new-car/product.html/"
 
                         # Call the verify_ctas method
                         cta_verifier.verify_ctas(parent_selector, primary_cta_selector, expected_href_value)
