@@ -216,8 +216,10 @@ manual_test_cases = [
     
     
     
-    {"test_name": "Last Seen PDP", "market_code": "DE/de", "model_code": "I420"},
-        
+    {"test_name": "BFV2", "market_code": "IT/it"},
+    {"test_name": "BFV3", "market_code": "IT/it"}
+     
+    
 
     
 ]
@@ -240,8 +242,9 @@ for manual_case in manual_test_cases:
             if "urls" in case:
                 for key, url in case["urls"].items():
                     if url and key == "HOME_PAGE":  # Ensure the URL is not None and the key is HOME_PAGE
-                        case["urls"][key] = f"{url}?usecaselivetest=true"    
+                        case["urls"][key] = f"{url}?evergageTestMessages=GCKzQ"    
             
+    
         if model_code:
             # Update the manual case with the fetched URLs for the specific model
             manual_case["urls"] = fetched_cases[0].get("urls", {})

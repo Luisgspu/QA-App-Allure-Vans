@@ -1,0 +1,9 @@
+[
+    {"test_name": "Last Seen PDP", "market_code": "BE/nl", "model_code": "I420"},
+    {"test_name": "Last Seen PDP", "market_code": "DK/da", "model_code": "I420"},
+    {"test_name": "Last Seen PDP", "market_code": "FR/fr", "model_code": "I420"},
+    {"test_name": "Last Seen PDP", "market_code": "LU/de", "model_code": "I420"},
+    {"test_name": "Last Seen PDP", "market_code": "IT/it", "model_code": "I420"},
+    {"test_name": "Last Seen PDP", "market_code": "NL/nl", "model_code": "I420"},
+    {"test_name": "Last Seen PDP", "market_code": "CH/de", "model_code": "I420"}
+]

@@ -91,25 +91,25 @@ class VehicleAPI:
     def construct_home_page_url(self, market_code, product_page, configurator_url):
         """Constructs the HOME_PAGE URL based on market code and the product/configurator URLs."""
         try:
+            # Split the product page URL into parts
             parts = product_page.split('/')
-            if market_code.startswith("BE/nl_BE"):
-                home_page = f"{parts[0]}//{parts[2]}/nl_BE"
-            elif market_code.startswith("BE/fr"):
-                home_page = f"{parts[0]}//{parts[2]}/fr"
-            elif market_code.startswith("CH/de"):
-                home_page = f"{parts[0]}//{parts[2]}/de"
-            elif market_code.startswith("CH/it"):
-                home_page = f"{parts[0]}//{parts[2]}/it"
-            elif market_code.startswith("CH/fr"):
-                home_page = f"{parts[0]}//{parts[2]}/fr"
-            elif market_code.startswith("LU/de"):
-                home_page = f"{parts[0]}//{parts[2]}/de"
-            elif market_code.startswith("LU/fr"):
-                home_page = f"{parts[0]}//{parts[2]}/fr"                                
-            elif "/vans/" in configurator_url:
-                home_page = f"{parts[0]}//{parts[2]}/vans"
+            base_url = f"{parts[0]}//{parts[2]}"
+
+            # Handle cases where the product page URL includes '/vans/'
+            if "/vans/" in product_page or "/van/" in product_page:
+                if market_code.startswith("CH/") or market_code.startswith("BE/") or market_code.startswith("LU/"):
+                    # Extract language code (e.g., 'fr', 'de', 'it')
+                    language = market_code.split('/')[1]
+                    home_page = f"{base_url}/{language}/vans"
+                else:
+                    home_page = f"{base_url}/vans"
+            # Handle language-specific paths for multi-language countries without '/vans/'
+            elif market_code.startswith("CH/") or market_code.startswith("BE/") or market_code.startswith("LU/"):
+                language = market_code.split('/')[1]  # Extract language (e.g., 'de', 'fr', 'it')
+                home_page = f"{base_url}/{language}"
             else:
-                home_page = f"{parts[0]}//{parts[2]}/"
+                # Default case for other markets
+                home_page = base_url
 
             # Log and attach constructed HOME_PAGE URL
             logging.info(f"✅ Constructed HOME_PAGE URL: {home_page}")
@@ -117,7 +117,7 @@ class VehicleAPI:
         except IndexError:
             logging.error("❌ Error constructing HOME_PAGE URL.")
             allure.attach("Error constructing HOME_PAGE URL", name="Error Details", attachment_type=allure.attachment_type.TEXT)
-            pytest.fail("❌ Error: The CONFIGURATOR URL does not have the expected structure.")
+            pytest.fail("❌ Error: The PRODUCT_PAGE URL does not have the expected structure.")
 
     def extract_body_type_and_model_name(self, product_page, market_code):
         """Extracts the body type and model name from the PRODUCT_PAGE URL."""

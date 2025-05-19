@@ -130,7 +130,7 @@ def verify_personalization_and_capture(
                 with allure.step(f"✅ Personalized image with expected src '{expected_src}' was applied correctly."):
                     logging.info(f"✅ Found matching image with src: {matching_src}")
                 
-                    # Check if the current page is the last seen PDP
+                # Check if the current page is the last seen PDP
                 if test_name == "Last Seen PDP":  # Adjust the condition based on your PDP URL structure
                     with allure.step("🔍 Verifying CTAs on the PDP"):
                         # Instantiate the CTAVerifierPDP class
