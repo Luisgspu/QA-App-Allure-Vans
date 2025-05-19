@@ -1,0 +1,854 @@
+ERROR    root:ConfigStarted.py:59 ❌ Error while performing configurator actions: Message: no such element: Unable to locate element: {"method":"css selector","selector":"body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > owcc-car-configurator"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55e02288e78a <unknown>
+#1 0x55e0223310a0 <unknown>
+#2 0x55e0223829b0 <unknown>
+#3 0x55e022382ba1 <unknown>
+#4 0x55e0223d0ea4 <unknown>
+#5 0x55e0223a83cd <unknown>
+#6 0x55e0223ce2a0 <unknown>
+#7 0x55e0223a8173 <unknown>
+#8 0x55e022374d4b <unknown>
+#9 0x55e0223759b1 <unknown>
+#10 0x55e02285393b <unknown>
+#11 0x55e02285783a <unknown>
+#12 0x55e02283b692 <unknown>
+#13 0x55e0228583c4 <unknown>
+#14 0x55e0228204cf <unknown>
+#15 0x55e02287c568 <unknown>
+#16 0x55e02287c746 <unknown>
+#17 0x55e02288d5f6 <unknown>
+#18 0x7fd38409caa4 <unknown>
+#19 0x7fd384129c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjoiVmlldyBJdGVtIiwiY2F0YWxvZyI6eyJWYW5zTW9kZWxDb2RlIjp7Il9pZCI6ImU0NDctZmwyIiwibmFtZSI6ImU0NDctZmwyIn19LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjIxMDE1NjY2MzMuMTc0NzY0NTkxNyJ9LCJhbm9uSWQiOiJhOWRjZGFhY2MxZGIxZjg4In0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQiLCJjb250ZW50Wm9uZXMiOltdfSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI0MDQ1MzU0ODEyNzkwNjciLCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9fQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55e02288e78a <unknown>
+#1 0x55e0223310a0 <unknown>
+#2 0x55e0223182a6 <unknown>
+#3 0x55e022316bba <unknown>
+#4 0x55e02231731f <unknown>
+#5 0x55e022317274 <unknown>
+#6 0x55e0223352df <unknown>
+#7 0x55e0223da5ca <unknown>
+#8 0x55e0223a83a2 <unknown>
+#9 0x55e0223ce2a0 <unknown>
+#10 0x55e0223a8173 <unknown>
+#11 0x55e022374d4b <unknown>
+#12 0x55e0223759b1 <unknown>
+#13 0x55e02285393b <unknown>
+#14 0x55e02285783a <unknown>
+#15 0x55e02283b692 <unknown>
+#16 0x55e0228583c4 <unknown>
+#17 0x55e0228204cf <unknown>
+#18 0x55e02287c568 <unknown>
+#19 0x55e02287c746 <unknown>
+#20 0x55e02288d5f6 <unknown>
+#21 0x7fd38409caa4 <unknown>
+#22 0x7fd384129c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjoiVmlldyBJdGVtIiwiY2F0YWxvZyI6eyJJdGVtQ2xhc3MiOnsiX2lkIjoib3ZlcnZpZXcifX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMjEwMTU2NjYzMy4xNzQ3NjQ1OTE3In0sImFub25JZCI6ImE5ZGNkYWFjYzFkYjFmODgifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnouaXQvcGFzc2VuZ2VyY2Fycy9tb2RlbHMvdmFuL2Vxdi9vdmVydmlldy5odG1sIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJwZXJmb3JtYW5jZSI6eyJzZGtQYXJzZVRpbWUiOjF9LCJfdG9vbHNFdmVudExpbmtJZCI6IjEzNzAwMjU5MjM4MzgxMjE4IiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55e02288e78a <unknown>
+#1 0x55e0223310a0 <unknown>
+#2 0x55e0223182a6 <unknown>
+#3 0x55e022316bba <unknown>
+#4 0x55e02231731f <unknown>
+#5 0x55e022317274 <unknown>
+#6 0x55e0223352df <unknown>
+#7 0x55e0223da5ca <unknown>
+#8 0x55e0223a83a2 <unknown>
+#9 0x55e0223ce2a0 <unknown>
+#10 0x55e0223a8173 <unknown>
+#11 0x55e022374d4b <unknown>
+#12 0x55e0223759b1 <unknown>
+#13 0x55e02285393b <unknown>
+#14 0x55e02285783a <unknown>
+#15 0x55e02283b692 <unknown>
+#16 0x55e0228583c4 <unknown>
+#17 0x55e0228204cf <unknown>
+#18 0x55e02287c568 <unknown>
+#19 0x55e02287c746 <unknown>
+#20 0x55e02288d5f6 <unknown>
+#21 0x7fd38409caa4 <unknown>
+#22 0x7fd384129c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJQcm9kdWN0IEluZm9ybWF0aW9uIFBhZ2UgLSBvdmVydmlldyA0NDc4IiwiaXRlbUFjdGlvbiI6IlZpZXcgSXRlbSIsInNvdXJjZSI6eyJwYWdlVHlwZSI6InByb2R1Y3RfaW5mb3JtYXRpb24iLCJsb2NhbGUiOiJpdF9JVCIsImNvbnRlbnRab25lcyI6WyJnbG9iYWxfUElfTkwiLCJwaV9iYW5uZXJfTkwiLCJlcXMtc3BlY2lhbF9OTCJdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjIxMDE1NjY2MzMuMTc0NzY0NTkxNyJ9LCJhbm9uSWQiOiJhOWRjZGFhY2MxZGIxZjg4In0sInBlcmZvcm1hbmNlIjp7InNka1BhcnNlVGltZSI6MX0sImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX0sImNhdGFsb2ciOnsiUHJvZHVjdCI6eyJfaWQiOiI0NDc4IiwiZGltZW5zaW9ucyI6eyJCYXVtdXN0ZXJTaG9ydCI6WyI0NDc4Il19fX0sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sIl90b29sc0V2ZW50TGlua0lkIjoiNDQ2MDM3OTEzOTk3NDM3MSJ9: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55e02288e78a <unknown>
+#1 0x55e0223310a0 <unknown>
+#2 0x55e0223182a6 <unknown>
+#3 0x55e022316bba <unknown>
+#4 0x55e02231731f <unknown>
+#5 0x55e022317274 <unknown>
+#6 0x55e0223352df <unknown>
+#7 0x55e0223da5ca <unknown>
+#8 0x55e0223a83a2 <unknown>
+#9 0x55e0223ce2a0 <unknown>
+#10 0x55e0223a8173 <unknown>
+#11 0x55e022374d4b <unknown>
+#12 0x55e0223759b1 <unknown>
+#13 0x55e02285393b <unknown>
+#14 0x55e02285783a <unknown>
+#15 0x55e02283b692 <unknown>
+#16 0x55e0228583c4 <unknown>
+#17 0x55e0228204cf <unknown>
+#18 0x55e02287c568 <unknown>
+#19 0x55e02287c746 <unknown>
+#20 0x55e02288d5f6 <unknown>
+#21 0x7fd38409caa4 <unknown>
+#22 0x7fd384129c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gb3ZlcnZpZXciLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjIxMDE1NjY2MzMuMTc0NzY0NTkxNyJ9LCJhbm9uSWQiOiJhOWRjZGFhY2MxZGIxZjg4In0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQiLCJjb250ZW50Wm9uZXMiOltdfSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwicGVyZm9ybWFuY2UiOnsic2RrUGFyc2VUaW1lIjoxfSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIwNDYzMjc1ODA2OTk4NTkzMTYiLCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9fQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55e02288e78a <unknown>
+#1 0x55e0223310a0 <unknown>
+#2 0x55e0223182a6 <unknown>
+#3 0x55e022316bba <unknown>
+#4 0x55e02231731f <unknown>
+#5 0x55e022317274 <unknown>
+#6 0x55e0223352df <unknown>
+#7 0x55e0223da5ca <unknown>
+#8 0x55e0223a83a2 <unknown>
+#9 0x55e0223ce2a0 <unknown>
+#10 0x55e0223a8173 <unknown>
+#11 0x55e022374d4b <unknown>
+#12 0x55e0223759b1 <unknown>
+#13 0x55e02285393b <unknown>
+#14 0x55e02285783a <unknown>
+#15 0x55e02283b692 <unknown>
+#16 0x55e0228583c4 <unknown>
+#17 0x55e0228204cf <unknown>
+#18 0x55e02287c568 <unknown>
+#19 0x55e02287c746 <unknown>
+#20 0x55e02288d5f6 <unknown>
+#21 0x7fd38409caa4 <unknown>
+#22 0x7fd384129c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0P21vZGVscz1FUVYmYm9keVR5cGVzPUNPTUJJJmZ1ZWxUeXBlcz1FIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMjEwMTU2NjYzMy4xNzQ3NjQ1OTE3In0sImFub25JZCI6ImE5ZGNkYWFjYzFkYjFmODgifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIzNTk5NTM2MDg0MjA0NzQxIn0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55e02288e78a <unknown>
+#1 0x55e0223310a0 <unknown>
+#2 0x55e0223182a6 <unknown>
+#3 0x55e022316bba <unknown>
+#4 0x55e02231731f <unknown>
+#5 0x55e022317274 <unknown>
+#6 0x55e0223352df <unknown>
+#7 0x55e0223da5ca <unknown>
+#8 0x55e0223a83a2 <unknown>
+#9 0x55e0223ce2a0 <unknown>
+#10 0x55e0223a8173 <unknown>
+#11 0x55e022374d4b <unknown>
+#12 0x55e0223759b1 <unknown>
+#13 0x55e02285393b <unknown>
+#14 0x55e02285783a <unknown>
+#15 0x55e02283b692 <unknown>
+#16 0x55e0228583c4 <unknown>
+#17 0x55e0228204cf <unknown>
+#18 0x55e02287c568 <unknown>
+#19 0x55e02287c746 <unknown>
+#20 0x55e02288d5f6 <unknown>
+#21 0x7fd38409caa4 <unknown>
+#22 0x7fd384129c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gdmFuLW9ubGluZS1jb25maWd1cmF0b3IiLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjIxMDE1NjY2MzMuMTc0NzY0NTkxNyJ9LCJhbm9uSWQiOiJhOWRjZGFhY2MxZGIxZjg4In0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0P21vZGVscz1FUVYmYm9keVR5cGVzPUNPTUJJJmZ1ZWxUeXBlcz1FIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJwZXJmb3JtYW5jZSI6eyJzZGtQYXJzZVRpbWUiOjF9LCJfdG9vbHNFdmVudExpbmtJZCI6IjE3NjU1NDc3Nzc4NDE2ODE3IiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55e02288e78a <unknown>
+#1 0x55e0223310a0 <unknown>
+#2 0x55e0223182a6 <unknown>
+#3 0x55e022316bba <unknown>
+#4 0x55e02231731f <unknown>
+#5 0x55e022317274 <unknown>
+#6 0x55e0223352df <unknown>
+#7 0x55e0223da5ca <unknown>
+#8 0x55e0223a83a2 <unknown>
+#9 0x55e0223ce2a0 <unknown>
+#10 0x55e0223a8173 <unknown>
+#11 0x55e022374d4b <unknown>
+#12 0x55e0223759b1 <unknown>
+#13 0x55e02285393b <unknown>
+#14 0x55e02285783a <unknown>
+#15 0x55e02283b692 <unknown>
+#16 0x55e0228583c4 <unknown>
+#17 0x55e0228204cf <unknown>
+#18 0x55e02287c568 <unknown>
+#19 0x55e02287c746 <unknown>
+#20 0x55e02288d5f6 <unknown>
+#21 0x7fd38409caa4 <unknown>
+#22 0x7fd384129c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0IiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMjEwMTU2NjYzMy4xNzQ3NjQ1OTE3In0sImFub25JZCI6ImE5ZGNkYWFjYzFkYjFmODgifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI1MDc5MDk2MTAwMTUyNzM3In0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55e02288e78a <unknown>
+#1 0x55e0223310a0 <unknown>
+#2 0x55e0223182a6 <unknown>
+#3 0x55e022316bba <unknown>
+#4 0x55e02231731f <unknown>
+#5 0x55e022317274 <unknown>
+#6 0x55e0223352df <unknown>
+#7 0x55e0223da5ca <unknown>
+#8 0x55e0223a83a2 <unknown>
+#9 0x55e0223ce2a0 <unknown>
+#10 0x55e0223a8173 <unknown>
+#11 0x55e022374d4b <unknown>
+#12 0x55e0223759b1 <unknown>
+#13 0x55e02285393b <unknown>
+#14 0x55e02285783a <unknown>
+#15 0x55e02283b692 <unknown>
+#16 0x55e0228583c4 <unknown>
+#17 0x55e0228204cf <unknown>
+#18 0x55e02287c568 <unknown>
+#19 0x55e02287c746 <unknown>
+#20 0x55e02288d5f6 <unknown>
+#21 0x7fd38409caa4 <unknown>
+#22 0x7fd384129c3c <unknown>
+ERROR    root:ConfigStarted.py:59 ❌ Error while performing configurator actions: Message: no such element: Unable to locate element: {"method":"css selector","selector":"body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > owcc-car-configurator"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b14bdba78a <unknown>
+#1 0x55b14b85d0a0 <unknown>
+#2 0x55b14b8ae9b0 <unknown>
+#3 0x55b14b8aeba1 <unknown>
+#4 0x55b14b8fcea4 <unknown>
+#5 0x55b14b8d43cd <unknown>
+#6 0x55b14b8fa2a0 <unknown>
+#7 0x55b14b8d4173 <unknown>
+#8 0x55b14b8a0d4b <unknown>
+#9 0x55b14b8a19b1 <unknown>
+#10 0x55b14bd7f93b <unknown>
+#11 0x55b14bd8383a <unknown>
+#12 0x55b14bd67692 <unknown>
+#13 0x55b14bd843c4 <unknown>
+#14 0x55b14bd4c4cf <unknown>
+#15 0x55b14bda8568 <unknown>
+#16 0x55b14bda8746 <unknown>
+#17 0x55b14bdb95f6 <unknown>
+#18 0x7f084729caa4 <unknown>
+#19 0x7f0847329c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjoiVmlldyBJdGVtIiwiY2F0YWxvZyI6eyJJdGVtQ2xhc3MiOnsiX2lkIjoib3ZlcnZpZXcifX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTg5MDIwOTc3Mi4xNzQ3NjQ1OTQ1In0sImFub25JZCI6ImY1NzlkOGRlZGE1N2RiZDAifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnouaXQvcGFzc2VuZ2VyY2Fycy9tb2RlbHMvdmFuL2Vxdi9vdmVydmlldy5odG1sIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJwZXJmb3JtYW5jZSI6eyJzZGtQYXJzZVRpbWUiOjF9LCJfdG9vbHNFdmVudExpbmtJZCI6IjkzNDA2MTc1MDMzNzYzMDYiLCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9fQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55b14bdba78a <unknown>
+#1 0x55b14b85d0a0 <unknown>
+#2 0x55b14b8442a6 <unknown>
+#3 0x55b14b842bba <unknown>
+#4 0x55b14b84331f <unknown>
+#5 0x55b14b843274 <unknown>
+#6 0x55b14b8612df <unknown>
+#7 0x55b14b9065ca <unknown>
+#8 0x55b14b8d43a2 <unknown>
+#9 0x55b14b8fa2a0 <unknown>
+#10 0x55b14b8d4173 <unknown>
+#11 0x55b14b8a0d4b <unknown>
+#12 0x55b14b8a19b1 <unknown>
+#13 0x55b14bd7f93b <unknown>
+#14 0x55b14bd8383a <unknown>
+#15 0x55b14bd67692 <unknown>
+#16 0x55b14bd843c4 <unknown>
+#17 0x55b14bd4c4cf <unknown>
+#18 0x55b14bda8568 <unknown>
+#19 0x55b14bda8746 <unknown>
+#20 0x55b14bdb95f6 <unknown>
+#21 0x7f084729caa4 <unknown>
+#22 0x7f0847329c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjoiVmlldyBJdGVtIiwiY2F0YWxvZyI6eyJWYW5zTW9kZWxDb2RlIjp7Il9pZCI6ImU0NDctZmwyIiwibmFtZSI6ImU0NDctZmwyIn19LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE4OTAyMDk3NzIuMTc0NzY0NTk0NSJ9LCJhbm9uSWQiOiJmNTc5ZDhkZWRhNTdkYmQwIn0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQiLCJjb250ZW50Wm9uZXMiOltdfSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI3MDA0MDUyNzUzNDU0NjYiLCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9fQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55b14bdba78a <unknown>
+#1 0x55b14b85d0a0 <unknown>
+#2 0x55b14b8442a6 <unknown>
+#3 0x55b14b842bba <unknown>
+#4 0x55b14b84331f <unknown>
+#5 0x55b14b843274 <unknown>
+#6 0x55b14b8612df <unknown>
+#7 0x55b14b9065ca <unknown>
+#8 0x55b14b8d43a2 <unknown>
+#9 0x55b14b8fa2a0 <unknown>
+#10 0x55b14b8d4173 <unknown>
+#11 0x55b14b8a0d4b <unknown>
+#12 0x55b14b8a19b1 <unknown>
+#13 0x55b14bd7f93b <unknown>
+#14 0x55b14bd8383a <unknown>
+#15 0x55b14bd67692 <unknown>
+#16 0x55b14bd843c4 <unknown>
+#17 0x55b14bd4c4cf <unknown>
+#18 0x55b14bda8568 <unknown>
+#19 0x55b14bda8746 <unknown>
+#20 0x55b14bdb95f6 <unknown>
+#21 0x7f084729caa4 <unknown>
+#22 0x7f0847329c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJQcm9kdWN0IEluZm9ybWF0aW9uIFBhZ2UgLSBvdmVydmlldyA0NDc4IiwiaXRlbUFjdGlvbiI6IlZpZXcgSXRlbSIsInNvdXJjZSI6eyJwYWdlVHlwZSI6InByb2R1Y3RfaW5mb3JtYXRpb24iLCJsb2NhbGUiOiJpdF9JVCIsImNvbnRlbnRab25lcyI6WyJnbG9iYWxfUElfTkwiLCJwaV9iYW5uZXJfTkwiLCJlcXMtc3BlY2lhbF9OTCJdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE4OTAyMDk3NzIuMTc0NzY0NTk0NSJ9LCJhbm9uSWQiOiJmNTc5ZDhkZWRhNTdkYmQwIn0sInBlcmZvcm1hbmNlIjp7InNka1BhcnNlVGltZSI6MX0sImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX0sImNhdGFsb2ciOnsiUHJvZHVjdCI6eyJfaWQiOiI0NDc4IiwiZGltZW5zaW9ucyI6eyJCYXVtdXN0ZXJTaG9ydCI6WyI0NDc4Il19fX0sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sIl90b29sc0V2ZW50TGlua0lkIjoiNjM3NDM3OTM5NDA0NDgzNSJ9: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55b14bdba78a <unknown>
+#1 0x55b14b85d0a0 <unknown>
+#2 0x55b14b8442a6 <unknown>
+#3 0x55b14b842bba <unknown>
+#4 0x55b14b84331f <unknown>
+#5 0x55b14b843274 <unknown>
+#6 0x55b14b8612df <unknown>
+#7 0x55b14b9065ca <unknown>
+#8 0x55b14b8d43a2 <unknown>
+#9 0x55b14b8fa2a0 <unknown>
+#10 0x55b14b8d4173 <unknown>
+#11 0x55b14b8a0d4b <unknown>
+#12 0x55b14b8a19b1 <unknown>
+#13 0x55b14bd7f93b <unknown>
+#14 0x55b14bd8383a <unknown>
+#15 0x55b14bd67692 <unknown>
+#16 0x55b14bd843c4 <unknown>
+#17 0x55b14bd4c4cf <unknown>
+#18 0x55b14bda8568 <unknown>
+#19 0x55b14bda8746 <unknown>
+#20 0x55b14bdb95f6 <unknown>
+#21 0x7f084729caa4 <unknown>
+#22 0x7f0847329c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gb3ZlcnZpZXciLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE4OTAyMDk3NzIuMTc0NzY0NTk0NSJ9LCJhbm9uSWQiOiJmNTc5ZDhkZWRhNTdkYmQwIn0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQiLCJjb250ZW50Wm9uZXMiOltdfSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwicGVyZm9ybWFuY2UiOnsic2RrUGFyc2VUaW1lIjoxfSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI4NTU0OTgzODQzMDY2Mzc4IiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55b14bdba78a <unknown>
+#1 0x55b14b85d0a0 <unknown>
+#2 0x55b14b8442a6 <unknown>
+#3 0x55b14b842bba <unknown>
+#4 0x55b14b84331f <unknown>
+#5 0x55b14b843274 <unknown>
+#6 0x55b14b8612df <unknown>
+#7 0x55b14b9065ca <unknown>
+#8 0x55b14b8d43a2 <unknown>
+#9 0x55b14b8fa2a0 <unknown>
+#10 0x55b14b8d4173 <unknown>
+#11 0x55b14b8a0d4b <unknown>
+#12 0x55b14b8a19b1 <unknown>
+#13 0x55b14bd7f93b <unknown>
+#14 0x55b14bd8383a <unknown>
+#15 0x55b14bd67692 <unknown>
+#16 0x55b14bd843c4 <unknown>
+#17 0x55b14bd4c4cf <unknown>
+#18 0x55b14bda8568 <unknown>
+#19 0x55b14bda8746 <unknown>
+#20 0x55b14bdb95f6 <unknown>
+#21 0x7f084729caa4 <unknown>
+#22 0x7f0847329c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gdmFuLW9ubGluZS1jb25maWd1cmF0b3IiLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE4OTAyMDk3NzIuMTc0NzY0NTk0NSJ9LCJhbm9uSWQiOiJmNTc5ZDhkZWRhNTdkYmQwIn0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0P21vZGVscz1FUVYmYm9keVR5cGVzPUNPTUJJJmZ1ZWxUeXBlcz1FIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJfdG9vbHNFdmVudExpbmtJZCI6IjQ2OTA0MjQ3NjcyNDY5OTgiLCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9fQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55b14bdba78a <unknown>
+#1 0x55b14b85d0a0 <unknown>
+#2 0x55b14b8442a6 <unknown>
+#3 0x55b14b842bba <unknown>
+#4 0x55b14b84331f <unknown>
+#5 0x55b14b843274 <unknown>
+#6 0x55b14b8612df <unknown>
+#7 0x55b14b9065ca <unknown>
+#8 0x55b14b8d43a2 <unknown>
+#9 0x55b14b8fa2a0 <unknown>
+#10 0x55b14b8d4173 <unknown>
+#11 0x55b14b8a0d4b <unknown>
+#12 0x55b14b8a19b1 <unknown>
+#13 0x55b14bd7f93b <unknown>
+#14 0x55b14bd8383a <unknown>
+#15 0x55b14bd67692 <unknown>
+#16 0x55b14bd843c4 <unknown>
+#17 0x55b14bd4c4cf <unknown>
+#18 0x55b14bda8568 <unknown>
+#19 0x55b14bda8746 <unknown>
+#20 0x55b14bdb95f6 <unknown>
+#21 0x7f084729caa4 <unknown>
+#22 0x7f0847329c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0P21vZGVscz1FUVYmYm9keVR5cGVzPUNPTUJJJmZ1ZWxUeXBlcz1FIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTg5MDIwOTc3Mi4xNzQ3NjQ1OTQ1In0sImFub25JZCI6ImY1NzlkOGRlZGE1N2RiZDAifSwicGVyZm9ybWFuY2UiOnsic2RrUGFyc2VUaW1lIjoxfSwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfSwiY2F0YWxvZyI6e30sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sIl90b29sc0V2ZW50TGlua0lkIjoiMzk3OTUxNzQ1MzUyNjkzOTUifQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55b14bdba78a <unknown>
+#1 0x55b14b85d0a0 <unknown>
+#2 0x55b14b8442a6 <unknown>
+#3 0x55b14b842bba <unknown>
+#4 0x55b14b84331f <unknown>
+#5 0x55b14b843274 <unknown>
+#6 0x55b14b8612df <unknown>
+#7 0x55b14b9065ca <unknown>
+#8 0x55b14b8d43a2 <unknown>
+#9 0x55b14b8fa2a0 <unknown>
+#10 0x55b14b8d4173 <unknown>
+#11 0x55b14b8a0d4b <unknown>
+#12 0x55b14b8a19b1 <unknown>
+#13 0x55b14bd7f93b <unknown>
+#14 0x55b14bd8383a <unknown>
+#15 0x55b14bd67692 <unknown>
+#16 0x55b14bd843c4 <unknown>
+#17 0x55b14bd4c4cf <unknown>
+#18 0x55b14bda8568 <unknown>
+#19 0x55b14bda8746 <unknown>
+#20 0x55b14bdb95f6 <unknown>
+#21 0x7f084729caa4 <unknown>
+#22 0x7f0847329c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0IiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTg5MDIwOTc3Mi4xNzQ3NjQ1OTQ1In0sImFub25JZCI6ImY1NzlkOGRlZGE1N2RiZDAifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI3NzUxMDIzMjc2NTkyODc1In0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55b14bdba78a <unknown>
+#1 0x55b14b85d0a0 <unknown>
+#2 0x55b14b8442a6 <unknown>
+#3 0x55b14b842bba <unknown>
+#4 0x55b14b84331f <unknown>
+#5 0x55b14b843274 <unknown>
+#6 0x55b14b8612df <unknown>
+#7 0x55b14b9065ca <unknown>
+#8 0x55b14b8d43a2 <unknown>
+#9 0x55b14b8fa2a0 <unknown>
+#10 0x55b14b8d4173 <unknown>
+#11 0x55b14b8a0d4b <unknown>
+#12 0x55b14b8a19b1 <unknown>
+#13 0x55b14bd7f93b <unknown>
+#14 0x55b14bd8383a <unknown>
+#15 0x55b14bd67692 <unknown>
+#16 0x55b14bd843c4 <unknown>
+#17 0x55b14bd4c4cf <unknown>
+#18 0x55b14bda8568 <unknown>
+#19 0x55b14bda8746 <unknown>
+#20 0x55b14bdb95f6 <unknown>
+#21 0x7f084729caa4 <unknown>
+#22 0x7f0847329c3c <unknown>
+
+ERROR    root:VerifyPersonalizationAndCapture.py:20 ❌ Error attaching screenshot to Allure: [Errno 2] No such file or directory: '/home/runner/work/QA-App-Allure-Vans/QA-App-Allure-Vans/Tests/BFV2_attempt_2.png'
+ERROR    root:VerifyPersonalizationAndCapture.py:169 ❌ Image not found in the specified selector. Error: Message:
+ERROR    root:ConfigStarted.py:59 ❌ Error while performing configurator actions: Message: no such element: Unable to locate element: {"method":"css selector","selector":"body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > owcc-car-configurator"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55bf44f7378a <unknown>
+#1 0x55bf44a160a0 <unknown>
+#2 0x55bf44a679b0 <unknown>
+#3 0x55bf44a67ba1 <unknown>
+#4 0x55bf44ab5ea4 <unknown>
+#5 0x55bf44a8d3cd <unknown>
+#6 0x55bf44ab32a0 <unknown>
+#7 0x55bf44a8d173 <unknown>
+#8 0x55bf44a59d4b <unknown>
+#9 0x55bf44a5a9b1 <unknown>
+#10 0x55bf44f3893b <unknown>
+#11 0x55bf44f3c83a <unknown>
+#12 0x55bf44f20692 <unknown>
+#13 0x55bf44f3d3c4 <unknown>
+#14 0x55bf44f054cf <unknown>
+#15 0x55bf44f61568 <unknown>
+#16 0x55bf44f61746 <unknown>
+#17 0x55bf44f725f6 <unknown>
+#18 0x7f9485e9caa4 <unknown>
+#19 0x7f9485f29c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gb3ZlcnZpZXciLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE1NTIwOTAyNzEuMTc0NzY0NTk4OCJ9LCJhbm9uSWQiOiI1YTA1MzAyNjNjNjRjMzAwIn0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQiLCJjb250ZW50Wm9uZXMiOltdfSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI3MzQwNzA4NzE2NTY1NTA4IiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55bf44f7378a <unknown>
+#1 0x55bf44a160a0 <unknown>
+#2 0x55bf449fd2a6 <unknown>
+#3 0x55bf449fbbba <unknown>
+#4 0x55bf449fc31f <unknown>
+#5 0x55bf449fc274 <unknown>
+#6 0x55bf44a1a2df <unknown>
+#7 0x55bf44abf5ca <unknown>
+#8 0x55bf44a8d3a2 <unknown>
+#9 0x55bf44ab32a0 <unknown>
+#10 0x55bf44a8d173 <unknown>
+#11 0x55bf44a59d4b <unknown>
+#12 0x55bf44a5a9b1 <unknown>
+#13 0x55bf44f3893b <unknown>
+#14 0x55bf44f3c83a <unknown>
+#15 0x55bf44f20692 <unknown>
+#16 0x55bf44f3d3c4 <unknown>
+#17 0x55bf44f054cf <unknown>
+#18 0x55bf44f61568 <unknown>
+#19 0x55bf44f61746 <unknown>
+#20 0x55bf44f725f6 <unknown>
+#21 0x7f9485e9caa4 <unknown>
+#22 0x7f9485f29c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjoiVmlldyBJdGVtIiwiY2F0YWxvZyI6eyJWYW5zTW9kZWxDb2RlIjp7Il9pZCI6ImU0NDctZmwyIiwibmFtZSI6ImU0NDctZmwyIn19LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE1NTIwOTAyNzEuMTc0NzY0NTk4OCJ9LCJhbm9uSWQiOiI1YTA1MzAyNjNjNjRjMzAwIn0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQiLCJjb250ZW50Wm9uZXMiOltdfSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwicGVyZm9ybWFuY2UiOnsic2RrUGFyc2VUaW1lIjoyfSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIyODM4MjgyOTI4ODc0OTIzNCIsImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX19: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55bf44f7378a <unknown>
+#1 0x55bf44a160a0 <unknown>
+#2 0x55bf449fd2a6 <unknown>
+#3 0x55bf449fbbba <unknown>
+#4 0x55bf449fc31f <unknown>
+#5 0x55bf449fc274 <unknown>
+#6 0x55bf44a1a2df <unknown>
+#7 0x55bf44abf5ca <unknown>
+#8 0x55bf44a8d3a2 <unknown>
+#9 0x55bf44ab32a0 <unknown>
+#10 0x55bf44a8d173 <unknown>
+#11 0x55bf44a59d4b <unknown>
+#12 0x55bf44a5a9b1 <unknown>
+#13 0x55bf44f3893b <unknown>
+#14 0x55bf44f3c83a <unknown>
+#15 0x55bf44f20692 <unknown>
+#16 0x55bf44f3d3c4 <unknown>
+#17 0x55bf44f054cf <unknown>
+#18 0x55bf44f61568 <unknown>
+#19 0x55bf44f61746 <unknown>
+#20 0x55bf44f725f6 <unknown>
+#21 0x7f9485e9caa4 <unknown>
+#22 0x7f9485f29c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjoiVmlldyBJdGVtIiwiY2F0YWxvZyI6eyJJdGVtQ2xhc3MiOnsiX2lkIjoib3ZlcnZpZXcifX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTU1MjA5MDI3MS4xNzQ3NjQ1OTg4In0sImFub25JZCI6IjVhMDUzMDI2M2M2NGMzMDAifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnouaXQvcGFzc2VuZ2VyY2Fycy9tb2RlbHMvdmFuL2Vxdi9vdmVydmlldy5odG1sIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJwZXJmb3JtYW5jZSI6eyJzZGtQYXJzZVRpbWUiOjJ9LCJfdG9vbHNFdmVudExpbmtJZCI6IjU3NTg2NzU4NTYzNjY0ODEiLCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9fQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55bf44f7378a <unknown>
+#1 0x55bf44a160a0 <unknown>
+#2 0x55bf449fd2a6 <unknown>
+#3 0x55bf449fbbba <unknown>
+#4 0x55bf449fc31f <unknown>
+#5 0x55bf449fc274 <unknown>
+#6 0x55bf44a1a2df <unknown>
+#7 0x55bf44abf5ca <unknown>
+#8 0x55bf44a8d3a2 <unknown>
+#9 0x55bf44ab32a0 <unknown>
+#10 0x55bf44a8d173 <unknown>
+#11 0x55bf44a59d4b <unknown>
+#12 0x55bf44a5a9b1 <unknown>
+#13 0x55bf44f3893b <unknown>
+#14 0x55bf44f3c83a <unknown>
+#15 0x55bf44f20692 <unknown>
+#16 0x55bf44f3d3c4 <unknown>
+#17 0x55bf44f054cf <unknown>
+#18 0x55bf44f61568 <unknown>
+#19 0x55bf44f61746 <unknown>
+#20 0x55bf44f725f6 <unknown>
+#21 0x7f9485e9caa4 <unknown>
+#22 0x7f9485f29c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJQcm9kdWN0IEluZm9ybWF0aW9uIFBhZ2UgLSBvdmVydmlldyA0NDc4IiwiaXRlbUFjdGlvbiI6IlZpZXcgSXRlbSIsInNvdXJjZSI6eyJwYWdlVHlwZSI6InByb2R1Y3RfaW5mb3JtYXRpb24iLCJsb2NhbGUiOiJpdF9JVCIsImNvbnRlbnRab25lcyI6WyJnbG9iYWxfUElfTkwiLCJwaV9iYW5uZXJfTkwiLCJlcXMtc3BlY2lhbF9OTCJdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE1NTIwOTAyNzEuMTc0NzY0NTk4OCJ9LCJhbm9uSWQiOiI1YTA1MzAyNjNjNjRjMzAwIn0sInBlcmZvcm1hbmNlIjp7InNka1BhcnNlVGltZSI6Mn0sImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX0sImNhdGFsb2ciOnsiUHJvZHVjdCI6eyJfaWQiOiI0NDc4IiwiZGltZW5zaW9ucyI6eyJCYXVtdXN0ZXJTaG9ydCI6WyI0NDc4Il19fX0sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sIl90b29sc0V2ZW50TGlua0lkIjoiOTUzNjMzNDQ5OTIzOTk3MiJ9: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55bf44f7378a <unknown>
+#1 0x55bf44a160a0 <unknown>
+#2 0x55bf449fd2a6 <unknown>
+#3 0x55bf449fbbba <unknown>
+#4 0x55bf449fc31f <unknown>
+#5 0x55bf449fc274 <unknown>
+#6 0x55bf44a1a2df <unknown>
+#7 0x55bf44abf5ca <unknown>
+#8 0x55bf44a8d3a2 <unknown>
+#9 0x55bf44ab32a0 <unknown>
+#10 0x55bf44a8d173 <unknown>
+#11 0x55bf44a59d4b <unknown>
+#12 0x55bf44a5a9b1 <unknown>
+#13 0x55bf44f3893b <unknown>
+#14 0x55bf44f3c83a <unknown>
+#15 0x55bf44f20692 <unknown>
+#16 0x55bf44f3d3c4 <unknown>
+#17 0x55bf44f054cf <unknown>
+#18 0x55bf44f61568 <unknown>
+#19 0x55bf44f61746 <unknown>
+#20 0x55bf44f725f6 <unknown>
+#21 0x7f9485e9caa4 <unknown>
+#22 0x7f9485f29c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0P21vZGVscz1FUVYmYm9keVR5cGVzPUNPTUJJJmZ1ZWxUeXBlcz1FIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTU1MjA5MDI3MS4xNzQ3NjQ1OTg4In0sImFub25JZCI6IjVhMDUzMDI2M2M2NGMzMDAifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIxNDMxNDIzODU2MjIzOTE1NyJ9: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55bf44f7378a <unknown>
+#1 0x55bf44a160a0 <unknown>
+#2 0x55bf449fd2a6 <unknown>
+#3 0x55bf449fbbba <unknown>
+#4 0x55bf449fc31f <unknown>
+#5 0x55bf449fc274 <unknown>
+#6 0x55bf44a1a2df <unknown>
+#7 0x55bf44abf5ca <unknown>
+#8 0x55bf44a8d3a2 <unknown>
+#9 0x55bf44ab32a0 <unknown>
+#10 0x55bf44a8d173 <unknown>
+#11 0x55bf44a59d4b <unknown>
+#12 0x55bf44a5a9b1 <unknown>
+#13 0x55bf44f3893b <unknown>
+#14 0x55bf44f3c83a <unknown>
+#15 0x55bf44f20692 <unknown>
+#16 0x55bf44f3d3c4 <unknown>
+#17 0x55bf44f054cf <unknown>
+#18 0x55bf44f61568 <unknown>
+#19 0x55bf44f61746 <unknown>
+#20 0x55bf44f725f6 <unknown>
+#21 0x7f9485e9caa4 <unknown>
+#22 0x7f9485f29c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gdmFuLW9ubGluZS1jb25maWd1cmF0b3IiLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjE1NTIwOTAyNzEuMTc0NzY0NTk4OCJ9LCJhbm9uSWQiOiI1YTA1MzAyNjNjNjRjMzAwIn0sInNvdXJjZSI6eyJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0P21vZGVscz1FUVYmYm9keVR5cGVzPUNPTUJJJmZ1ZWxUeXBlcz1FIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJwZXJmb3JtYW5jZSI6eyJzZGtQYXJzZVRpbWUiOjF9LCJfdG9vbHNFdmVudExpbmtJZCI6IjY5NjAxMzE1MDkxMjMxMzciLCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9fQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55bf44f7378a <unknown>
+#1 0x55bf44a160a0 <unknown>
+#2 0x55bf449fd2a6 <unknown>
+#3 0x55bf449fbbba <unknown>
+#4 0x55bf449fc31f <unknown>
+#5 0x55bf449fc274 <unknown>
+#6 0x55bf44a1a2df <unknown>
+#7 0x55bf44abf5ca <unknown>
+#8 0x55bf44a8d3a2 <unknown>
+#9 0x55bf44ab32a0 <unknown>
+#10 0x55bf44a8d173 <unknown>
+#11 0x55bf44a59d4b <unknown>
+#12 0x55bf44a5a9b1 <unknown>
+#13 0x55bf44f3893b <unknown>
+#14 0x55bf44f3c83a <unknown>
+#15 0x55bf44f20692 <unknown>
+#16 0x55bf44f3d3c4 <unknown>
+#17 0x55bf44f054cf <unknown>
+#18 0x55bf44f61568 <unknown>
+#19 0x55bf44f61746 <unknown>
+#20 0x55bf44f725f6 <unknown>
+#21 0x7f9485e9caa4 <unknown>
+#22 0x7f9485f29c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0IiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTU1MjA5MDI3MS4xNzQ3NjQ1OTg4In0sImFub25JZCI6IjVhMDUzMDI2M2M2NGMzMDAifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIwNDc3MjMzMTgzMzI5NzY4MyJ9: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x55bf44f7378a <unknown>
+#1 0x55bf44a160a0 <unknown>
+#2 0x55bf449fd2a6 <unknown>
+#3 0x55bf449fbbba <unknown>
+#4 0x55bf449fc31f <unknown>
+#5 0x55bf449fc274 <unknown>
+#6 0x55bf44a1a2df <unknown>
+#7 0x55bf44abf5ca <unknown>
+#8 0x55bf44a8d3a2 <unknown>
+#9 0x55bf44ab32a0 <unknown>
+#10 0x55bf44a8d173 <unknown>
+#11 0x55bf44a59d4b <unknown>
+#12 0x55bf44a5a9b1 <unknown>
+#13 0x55bf44f3893b <unknown>
+#14 0x55bf44f3c83a <unknown>
+#15 0x55bf44f20692 <unknown>
+#16 0x55bf44f3d3c4 <unknown>
+#17 0x55bf44f054cf <unknown>
+#18 0x55bf44f61568 <unknown>
+#19 0x55bf44f61746 <unknown>
+#20 0x55bf44f725f6 <unknown>
+#21 0x7f9485e9caa4 <unknown>
+#22 0x7f9485f29c3c <unknown>
+
+ERROR    root:VerifyPersonalizationAndCapture.py:20 ❌ Error attaching screenshot to Allure: [Errno 2] No such file or directory: '/home/runner/work/QA-App-Allure-Vans/QA-App-Allure-Vans/Tests/BFV2_attempt_2.png'
+ERROR    root:VerifyPersonalizationAndCapture.py:169 ❌ Image not found in the specified selector. Error: Message:
+ERROR    root:ConfigStarted.py:59 ❌ Error while performing configurator actions: Message: no such element: Unable to locate element: {"method":"css selector","selector":"body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > owcc-car-configurator"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a5f7bb78a <unknown>
+#1 0x555a5f25e0a0 <unknown>
+#2 0x555a5f2af9b0 <unknown>
+#3 0x555a5f2afba1 <unknown>
+#4 0x555a5f2fdea4 <unknown>
+#5 0x555a5f2d53cd <unknown>
+#6 0x555a5f2fb2a0 <unknown>
+#7 0x555a5f2d5173 <unknown>
+#8 0x555a5f2a1d4b <unknown>
+#9 0x555a5f2a29b1 <unknown>
+#10 0x555a5f78093b <unknown>
+#11 0x555a5f78483a <unknown>
+#12 0x555a5f768692 <unknown>
+#13 0x555a5f7853c4 <unknown>
+#14 0x555a5f74d4cf <unknown>
+#15 0x555a5f7a9568 <unknown>
+#16 0x555a5f7a9746 <unknown>
+#17 0x555a5f7ba5f6 <unknown>
+#18 0x7fc70589caa4 <unknown>
+#19 0x7fc705929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gb3ZlcnZpZXciLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjI3NDk4MjU4NC4xNzQ3NjQ2MDM0In0sImFub25JZCI6IjdiZWY3MjhiNDEwYzFkZjAifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnouaXQvcGFzc2VuZ2VyY2Fycy9tb2RlbHMvdmFuL2Vxdi9vdmVydmlldy5odG1sIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJwZXJmb3JtYW5jZSI6eyJzZGtQYXJzZVRpbWUiOjF9LCJfdG9vbHNFdmVudExpbmtJZCI6IjA1MDY2MjA1NzAzMDE1NzAyNiIsImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX19: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x555a5f7bb78a <unknown>
+#1 0x555a5f25e0a0 <unknown>
+#2 0x555a5f2452a6 <unknown>
+#3 0x555a5f243bba <unknown>
+#4 0x555a5f24431f <unknown>
+#5 0x555a5f244274 <unknown>
+#6 0x555a5f2622df <unknown>
+#7 0x555a5f3075ca <unknown>
+#8 0x555a5f2d53a2 <unknown>
+#9 0x555a5f2fb2a0 <unknown>
+#10 0x555a5f2d5173 <unknown>
+#11 0x555a5f2a1d4b <unknown>
+#12 0x555a5f2a29b1 <unknown>
+#13 0x555a5f78093b <unknown>
+#14 0x555a5f78483a <unknown>
+#15 0x555a5f768692 <unknown>
+#16 0x555a5f7853c4 <unknown>
+#17 0x555a5f74d4cf <unknown>
+#18 0x555a5f7a9568 <unknown>
+#19 0x555a5f7a9746 <unknown>
+#20 0x555a5f7ba5f6 <unknown>
+#21 0x7fc70589caa4 <unknown>
+#22 0x7fc705929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjoiVmlldyBJdGVtIiwiY2F0YWxvZyI6eyJWYW5zTW9kZWxDb2RlIjp7Il9pZCI6ImU0NDctZmwyIiwibmFtZSI6ImU0NDctZmwyIn19LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjI3NDk4MjU4NC4xNzQ3NjQ2MDM0In0sImFub25JZCI6IjdiZWY3MjhiNDEwYzFkZjAifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnouaXQvcGFzc2VuZ2VyY2Fycy9tb2RlbHMvdmFuL2Vxdi9vdmVydmlldy5odG1sIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCIsImNvbnRlbnRab25lcyI6W119LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJfdG9vbHNFdmVudExpbmtJZCI6IjU3NzE5MzkzNDE3NDc3MiIsImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX19: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x555a5f7bb78a <unknown>
+#1 0x555a5f25e0a0 <unknown>
+#2 0x555a5f2452a6 <unknown>
+#3 0x555a5f243bba <unknown>
+#4 0x555a5f24431f <unknown>
+#5 0x555a5f244274 <unknown>
+#6 0x555a5f2622df <unknown>
+#7 0x555a5f3075ca <unknown>
+#8 0x555a5f2d53a2 <unknown>
+#9 0x555a5f2fb2a0 <unknown>
+#10 0x555a5f2d5173 <unknown>
+#11 0x555a5f2a1d4b <unknown>
+#12 0x555a5f2a29b1 <unknown>
+#13 0x555a5f78093b <unknown>
+#14 0x555a5f78483a <unknown>
+#15 0x555a5f768692 <unknown>
+#16 0x555a5f7853c4 <unknown>
+#17 0x555a5f74d4cf <unknown>
+#18 0x555a5f7a9568 <unknown>
+#19 0x555a5f7a9746 <unknown>
+#20 0x555a5f7ba5f6 <unknown>
+#21 0x7fc70589caa4 <unknown>
+#22 0x7fc705929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjoiVmlldyBJdGVtIiwiY2F0YWxvZyI6eyJJdGVtQ2xhc3MiOnsiX2lkIjoib3ZlcnZpZXcifX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMjc0OTgyNTg0LjE3NDc2NDYwMzQifSwiYW5vbklkIjoiN2JlZjcyOGI0MTBjMWRmMCJ9LCJzb3VyY2UiOnsidXJsIjoiaHR0cHM6Ly93d3cubWVyY2VkZXMtYmVuei5pdC9wYXNzZW5nZXJjYXJzL21vZGVscy92YW4vZXF2L292ZXJ2aWV3Lmh0bWwiLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjY0IiwiY29udGVudFpvbmVzIjpbXX0sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sInBlcmZvcm1hbmNlIjp7InNka1BhcnNlVGltZSI6MX0sIl90b29sc0V2ZW50TGlua0lkIjoiNDcxODM3NDUxOTc3NTA4OCIsImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX19: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x555a5f7bb78a <unknown>
+#1 0x555a5f25e0a0 <unknown>
+#2 0x555a5f2452a6 <unknown>
+#3 0x555a5f243bba <unknown>
+#4 0x555a5f24431f <unknown>
+#5 0x555a5f244274 <unknown>
+#6 0x555a5f2622df <unknown>
+#7 0x555a5f3075ca <unknown>
+#8 0x555a5f2d53a2 <unknown>
+#9 0x555a5f2fb2a0 <unknown>
+#10 0x555a5f2d5173 <unknown>
+#11 0x555a5f2a1d4b <unknown>
+#12 0x555a5f2a29b1 <unknown>
+#13 0x555a5f78093b <unknown>
+#14 0x555a5f78483a <unknown>
+#15 0x555a5f768692 <unknown>
+#16 0x555a5f7853c4 <unknown>
+#17 0x555a5f74d4cf <unknown>
+#18 0x555a5f7a9568 <unknown>
+#19 0x555a5f7a9746 <unknown>
+#20 0x555a5f7ba5f6 <unknown>
+#21 0x7fc70589caa4 <unknown>
+#22 0x7fc705929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJQcm9kdWN0IEluZm9ybWF0aW9uIFBhZ2UgLSBvdmVydmlldyA0NDc4IiwiaXRlbUFjdGlvbiI6IlZpZXcgSXRlbSIsInNvdXJjZSI6eyJwYWdlVHlwZSI6InByb2R1Y3RfaW5mb3JtYXRpb24iLCJsb2NhbGUiOiJpdF9JVCIsImNvbnRlbnRab25lcyI6WyJnbG9iYWxfUElfTkwiLCJwaV9iYW5uZXJfTkwiLCJlcXMtc3BlY2lhbF9OTCJdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3Bhc3NlbmdlcmNhcnMvbW9kZWxzL3Zhbi9lcXYvb3ZlcnZpZXcuaHRtbCIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjQifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjI3NDk4MjU4NC4xNzQ3NjQ2MDM0In0sImFub25JZCI6IjdiZWY3MjhiNDEwYzFkZjAifSwicGVyZm9ybWFuY2UiOnsic2RrUGFyc2VUaW1lIjoxfSwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfSwiY2F0YWxvZyI6eyJQcm9kdWN0Ijp7Il9pZCI6IjQ0NzgiLCJkaW1lbnNpb25zIjp7IkJhdW11c3RlclNob3J0IjpbIjQ0NzgiXX19fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI5MTQwMDY4MzA2Mzc4NTk3In0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x555a5f7bb78a <unknown>
+#1 0x555a5f25e0a0 <unknown>
+#2 0x555a5f2452a6 <unknown>
+#3 0x555a5f243bba <unknown>
+#4 0x555a5f24431f <unknown>
+#5 0x555a5f244274 <unknown>
+#6 0x555a5f2622df <unknown>
+#7 0x555a5f3075ca <unknown>
+#8 0x555a5f2d53a2 <unknown>
+#9 0x555a5f2fb2a0 <unknown>
+#10 0x555a5f2d5173 <unknown>
+#11 0x555a5f2a1d4b <unknown>
+#12 0x555a5f2a29b1 <unknown>
+#13 0x555a5f78093b <unknown>
+#14 0x555a5f78483a <unknown>
+#15 0x555a5f768692 <unknown>
+#16 0x555a5f7853c4 <unknown>
+#17 0x555a5f74d4cf <unknown>
+#18 0x555a5f7a9568 <unknown>
+#19 0x555a5f7a9746 <unknown>
+#20 0x555a5f7ba5f6 <unknown>
+#21 0x7fc70589caa4 <unknown>
+#22 0x7fc705929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gdmFuLW9ubGluZS1jb25maWd1cmF0b3IiLCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjI3NDk4MjU4NC4xNzQ3NjQ2MDM0In0sImFub25JZCI6IjdiZWY3MjhiNDEwYzFkZjAifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnouaXQvdmFucy9idXkvdmFuLW9ubGluZS1jb25maWd1cmF0b3IuaHRtbCMvaXRfaXQ%2FbW9kZWxzPUVRViZib2R5VHlwZXM9Q09NQkkmZnVlbFR5cGVzPUUiLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjY0IiwiY29udGVudFpvbmVzIjpbXX0sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sIl90b29sc0V2ZW50TGlua0lkIjoiMzMxODg4ODc1MzU3NjYwNjUiLCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9fQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x555a5f7bb78a <unknown>
+#1 0x555a5f25e0a0 <unknown>
+#2 0x555a5f2452a6 <unknown>
+#3 0x555a5f243bba <unknown>
+#4 0x555a5f24431f <unknown>
+#5 0x555a5f244274 <unknown>
+#6 0x555a5f2622df <unknown>
+#7 0x555a5f3075ca <unknown>
+#8 0x555a5f2d53a2 <unknown>
+#9 0x555a5f2fb2a0 <unknown>
+#10 0x555a5f2d5173 <unknown>
+#11 0x555a5f2a1d4b <unknown>
+#12 0x555a5f2a29b1 <unknown>
+#13 0x555a5f78093b <unknown>
+#14 0x555a5f78483a <unknown>
+#15 0x555a5f768692 <unknown>
+#16 0x555a5f7853c4 <unknown>
+#17 0x555a5f74d4cf <unknown>
+#18 0x555a5f7a9568 <unknown>
+#19 0x555a5f7a9746 <unknown>
+#20 0x555a5f7ba5f6 <unknown>
+#21 0x7fc70589caa4 <unknown>
+#22 0x7fc705929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0P21vZGVscz1FUVYmYm9keVR5cGVzPUNPTUJJJmZ1ZWxUeXBlcz1FIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMjc0OTgyNTg0LjE3NDc2NDYwMzQifSwiYW5vbklkIjoiN2JlZjcyOGI0MTBjMWRmMCJ9LCJwZXJmb3JtYW5jZSI6e30sImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX0sImNhdGFsb2ciOnt9LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJfdG9vbHNFdmVudExpbmtJZCI6IjU4MzY3NzcwNjAxMTEyMTUifQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x555a5f7bb78a <unknown>
+#1 0x555a5f25e0a0 <unknown>
+#2 0x555a5f2452a6 <unknown>
+#3 0x555a5f243bba <unknown>
+#4 0x555a5f24431f <unknown>
+#5 0x555a5f244274 <unknown>
+#6 0x555a5f2622df <unknown>
+#7 0x555a5f3075ca <unknown>
+#8 0x555a5f2d53a2 <unknown>
+#9 0x555a5f2fb2a0 <unknown>
+#10 0x555a5f2d5173 <unknown>
+#11 0x555a5f2a1d4b <unknown>
+#12 0x555a5f2a29b1 <unknown>
+#13 0x555a5f78093b <unknown>
+#14 0x555a5f78483a <unknown>
+#15 0x555a5f768692 <unknown>
+#16 0x555a5f7853c4 <unknown>
+#17 0x555a5f74d4cf <unknown>
+#18 0x555a5f7a9568 <unknown>
+#19 0x555a5f7a9746 <unknown>
+#20 0x555a5f7ba5f6 <unknown>
+#21 0x7fc70589caa4 <unknown>
+#22 0x7fc705929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnMvYnV5L3Zhbi1vbmxpbmUtY29uZmlndXJhdG9yLmh0bWwjL2l0X2l0IiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMjc0OTgyNTg0LjE3NDc2NDYwMzQifSwiYW5vbklkIjoiN2JlZjcyOGI0MTBjMWRmMCJ9LCJwZXJmb3JtYW5jZSI6e30sImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX0sImNhdGFsb2ciOnt9LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJfdG9vbHNFdmVudExpbmtJZCI6IjU0Mzc2OTUwNjA4ODYyMzQifQ%3D%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x555a5f7bb78a <unknown>
+#1 0x555a5f25e0a0 <unknown>
+#2 0x555a5f2452a6 <unknown>
+#3 0x555a5f243bba <unknown>
+#4 0x555a5f24431f <unknown>
+#5 0x555a5f244274 <unknown>
+#6 0x555a5f2622df <unknown>
+#7 0x555a5f3075ca <unknown>
+#8 0x555a5f2d53a2 <unknown>
+#9 0x555a5f2fb2a0 <unknown>
+#10 0x555a5f2d5173 <unknown>
+#11 0x555a5f2a1d4b <unknown>
+#12 0x555a5f2a29b1 <unknown>
+#13 0x555a5f78093b <unknown>
+#14 0x555a5f78483a <unknown>
+#15 0x555a5f768692 <unknown>
+#16 0x555a5f7853c4 <unknown>
+#17 0x555a5f74d4cf <unknown>
+#18 0x555a5f7a9568 <unknown>
+#19 0x555a5f7a9746 <unknown>
+#20 0x555a5f7ba5f6 <unknown>
+#21 0x7fc70589caa4 <unknown>
+#22 0x7fc705929c3c <unknown>

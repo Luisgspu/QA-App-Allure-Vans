@@ -1,0 +1,53 @@
+{
+    "url": "https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJIb21lIFBhZ2UgLSBWYW5zIiwiaXRlbUFjdGlvbiI6bnVsbCwic291cmNlIjp7InBhZ2VUeXBlIjoiaG9tZV92YW5zIiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnM%2FZXZlcmdhZ2VUZXN0TWVzc2FnZXM9R0NLelEiLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjY0In0sImZsYWdzIjp7InBhZ2VWaWV3Ijp0cnVlfSwidXNlciI6eyJhdHRyaWJ1dGVzIjp7ImdhQ2xpZW50SUQiOiIxODU1NDg3OTYwLjE3NDc2NDU4MDMifSwiYW5vbklkIjoiMmMzOTZiZmQ4NmJmNzlhNiJ9LCJwZXJmb3JtYW5jZSI6e30sImRlYnVnIjp7InRlc3RNZXNzYWdlcyI6IkdDS3pRIiwiZXhwbGFuYXRpb25zIjp0cnVlfSwiY2F0YWxvZyI6e30sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sIl90b29sc0V2ZW50TGlua0lkIjoiMzg1MzY0MzM0NzQ5ODkwNiJ9",
+    "status": 200,
+    "body": {
+        "campaignResponses": [
+            {
+                "type": "ng",
+                "campaignId": "g6ENu",
+                "campaignName": "vans best-fitting-vehicle | all vans models | home | simple-teaser, campaign-module and stage",
+                "campaignType": "Web",
+                "experienceId": "j4Khk",
+                "experienceName": "Control Group",
+                "experienceSourceCode": "",
+                "state": "Published",
+                "campaignJavascriptContent": null,
+                "userGroup": "Default",
+                "templateNames": [
+                    "Always-on - best-fitting-vehicle-combined - home"
+                ],
+                "payload": {
+                    "phase3_copy": "Configure the vehicle of your dreams",
+                    "experience": "j4Khk",
+                    "phase3_primaryBtn": "Go to configurator",
+                    "activate_phase2": false,
+                    "overwrite_content": false,
+                    "trackingBlock": false,
+                    "activate_phase1": true,
+                    "activate_phase3": false,
+                    "phase2_copy": "Configure the vehicle of your dreams",
+                    "target_group": "control",
+                    "userGroup": "Test",
+                    "activate_cars": false,
+                    "block_stage": false,
+                    "activate_vans": true,
+                    "phase1_primaryBtn": "Go to configurator",
+                    "phase1_copy": "Configure the vehicle of your dreams",
+                    "phase3_secondaryBtn": "Learn more",
+                    "highest_affinity": {
+                        "car": null,
+                        "van": null
+                    },
+                    "phase2_secondaryBtn": "Learn more",
+                    "phase1_secondaryBtn": "Learn more",
+                    "campaign": "g6ENu",
+                    "phase2_primaryBtn": "Go to configurator",
+                    "onlineShop_label": "",
+                    "vehicles_overwrite": null,
+                    "segments": null
+                }
+            }
+        ]
+    }
+}

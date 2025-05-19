@@ -1,0 +1,53 @@
+{
+    "url": "https://daimleragemea.germany-2.evergage.com/api2/event/mb_italy_prod?event=eyJhY3Rpb24iOiJIb21lIFBhZ2UgLSBWYW5zIiwiaXRlbUFjdGlvbiI6bnVsbCwic291cmNlIjp7InBhZ2VUeXBlIjoiaG9tZV92YW5zIiwibG9jYWxlIjoiaXRfSVQiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lml0L3ZhbnM%2FZXZlcmdhZ2VUZXN0TWVzc2FnZXM9R0NLelEiLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjY0In0sImZsYWdzIjp7InBhZ2VWaWV3Ijp0cnVlfSwidXNlciI6eyJhdHRyaWJ1dGVzIjp7ImdhQ2xpZW50SUQiOiIxMjc1NjU2MzAzLjE3NDc2NDYyODUifSwiYW5vbklkIjoiMWUyZDFkN2VkZDRmNTA2NyJ9LCJwZXJmb3JtYW5jZSI6e30sImRlYnVnIjp7InRlc3RNZXNzYWdlcyI6IkdDS3pRIiwiZXhwbGFuYXRpb25zIjp0cnVlfSwiY2F0YWxvZyI6e30sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sIl90b29sc0V2ZW50TGlua0lkIjoiOTY3ODUyMzg4NjAwOTMwMyJ9",
+    "status": 200,
+    "body": {
+        "campaignResponses": [
+            {
+                "type": "ng",
+                "campaignId": "g6ENu",
+                "campaignName": "vans best-fitting-vehicle | all vans models | home | simple-teaser, campaign-module and stage",
+                "campaignType": "Web",
+                "experienceId": "q7Ul5",
+                "experienceName": "Target Group",
+                "experienceSourceCode": "",
+                "state": "Published",
+                "campaignJavascriptContent": null,
+                "userGroup": "Default",
+                "templateNames": [
+                    "Always-on - best-fitting-vehicle-combined - home"
+                ],
+                "payload": {
+                    "phase3_copy": "Trova un veicolo nuovo o richiedi un test drive",
+                    "experience": "q7Ul5",
+                    "phase3_primaryBtn": "Scegli in pronta consegna",
+                    "activate_phase2": false,
+                    "overwrite_content": false,
+                    "trackingBlock": false,
+                    "activate_phase1": true,
+                    "activate_phase3": false,
+                    "phase2_copy": "Scopri subito i veicoli disponibili ",
+                    "target_group": "target",
+                    "userGroup": "Test",
+                    "activate_cars": false,
+                    "block_stage": false,
+                    "activate_vans": true,
+                    "phase1_primaryBtn": "Configura adesso",
+                    "phase1_copy": "Configura il veicolo dei tuoi sogni.",
+                    "phase3_secondaryBtn": "Richiedi Test Drive",
+                    "highest_affinity": {
+                        "car": null,
+                        "van": null
+                    },
+                    "phase2_secondaryBtn": "Scopri di più",
+                    "phase1_secondaryBtn": "Scopri di più",
+                    "campaign": "g6ENu",
+                    "phase2_primaryBtn": "Scegli in pronta consegna",
+                    "onlineShop_label": "",
+                    "vehicles_overwrite": null,
+                    "segments": null
+                }
+            }
+        ]
+    }
+}
